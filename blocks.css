@@ -1,0 +1,106 @@
+
+div{
+	height: 100px;
+}
+
+.block {
+	display: block;
+}
+
+
+.inline-block{
+	display: inline-block;
+	width: 100px;
+}
+.background-red {
+    background-color: red; 
+}
+.background-blue {
+	background-color: blue;
+
+}
+.background-purple{
+	
+	background-color: purple;
+}
+
+.background-green{
+	
+	background-color:green ;
+}
+
+.background-pink{
+	
+	background-color: pink;
+}
+.float-left{
+	float: left;
+}
+
+.relative{
+	position: relative;
+}
+
+.absolute{
+	position: absolute;
+	top: 0;
+	left:0;
+}
+
+.fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
