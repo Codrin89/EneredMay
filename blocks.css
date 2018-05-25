@@ -1,0 +1,44 @@
+div {
+	height: 100px;
+}
+.block {
+	display: block;
+}
+.inline-block {
+	display: inline-block;
+	width: 100px;
+}
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.background-red {
+	background-color: red;
+}
+.background-blue {
+	background: blue;
+}
+.background-green {
+	background: green;
+}
+.background-purple {
+	background: purple;
+}
+.background-pink {
+	background: pink;
+}	
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
