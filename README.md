@@ -1,7 +1,7 @@
 Steps for github syncronizations:
 
-1) install git-bash or powershell (command-line for git commands)
-
+1) install git-bash or powershell (command-line for git commands) https://github.com/PowerShell/PowerShell#get-powershell
+ 
 2) create a folder and open command-line inside the folder
 
 3) in command line :
