@@ -1,0 +1,128 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+.banner-wrapper{
+	background-image:url('https://images.pexels.com/photos/301599/pexels-photo-301599.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350');
+	background-repeat:no-repeat;	
+	background-size:cover;
+	padding-top:100px;
+	padding-left:200px;	
+
+}
+.banner-wrapper h1{
+	color:blue;
+	font-size:30px;
+	font-style: italic;
+
+}
+.banner-wrapper p{
+	color:black;
+	font-size: 20px;
+	font-style: italic;
+}
+.banner_wrapper p{
+	color:blue;
+	font-size: 10px;
+}
+.banner-wrapper .round-button {
+	width:40px;
+	height: 40px;
+	border-radius:50%;
+}
+.banner-wrapper .icon-apple {
+	background-image:url('http://wfarm3.dataknet.com/static/resources/icons/set88/21cd3e67.png');
+	background-size: 25px;
+	background-repeat: no-repeat;
+	border: none;
+	outline: none;
+	background-position: 7px;
+	background-color: #38251a;
+}
+.banner-wrapper .icon-android {
+	background-image:url('https://cdn4.iconfinder.com/data/icons/social-papercut/512/android.png');
+	background-size:25px;
+	background-repeat: no-repeat;
+	border: none;
+	outline: none;
+	background-position: 7px;
+	background-color: #38251a;
+
+}
+.banner-wrapper .icon-windows{
+	background-image: url('https://cdn1.iconfinder.com/data/icons/smallicons-logotypes/32/microsoft-512.png');
+	background-size: 25px;
+	background-repeat: no-repeat;
+	border: none;
+	outline: none;
+	background-position: 7px;
+	background-color: #38251a;
+}
+.card-selection .card{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 33.333%;
+	float:left;
+	text-align: center;
+
+}
+.card-selection .card img{
+	max-width: 100%;
+    width: 10%;
+    background-color: green;
+    border-radius: 50%;
+    padding: 10px;
+}
+.card-selection .card .card-title{
+	font-weight: bold;
+	font-size: 20px;
+}
+.card-selection .card .card-details{
+	font-size: 15px;
+}
+.third-section .left, 
+.third-section .right{
+	max-width: 50%;
+	float: left;
+	background-color: grey;
+}
+.third-section .left{
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.third-section .left p{
+	color: #461212;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.third-section .left input{
+	border-radius: 6px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	margin-bottom: 20px;
+	padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    float:left;
+}
+.third-section .left button{
+	background-color: green;
+	color: #fff;
+	border-radius: 6px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	width: 90px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+}
+.third-selection .right video{
+	
+	
+}
