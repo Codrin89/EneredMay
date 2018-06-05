@@ -1,0 +1,31 @@
+h1{
+	background-color: yellow;
+	font-size: 40px;
+	text-align: center;
+}
+h2 {
+	font-size: 32px;
+}
+.left {
+	width: 20%;
+	float: left;
+}
+.center {
+	width: calc(60% - 2px);
+	float:left;
+	border-left: 2px solid green;
+}
+.right {
+	width: calc(20% - 4px);
+	display: inline-block;
+	border: 2px dashed green;
+	text-align: right;
+}
+footer {
+	clear: both;
+	text-align: center;
+}
+ul{
+	padding-left: 0;
+	list-style-type: none;
+}

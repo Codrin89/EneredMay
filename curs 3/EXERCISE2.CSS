@@ -1,0 +1,10 @@
+
+ul{
+	padding-left: 0;
+	list-style-type: none;
+.center {
+	width: calc(60% - 2px);
+	float:left;
+	border-left: 2px solid green;
+	text-decoration: bold;
+}
