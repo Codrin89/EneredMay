@@ -1,0 +1,49 @@
+
+h1 {
+	background-color: yellow;
+	text-align: center;
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+.left {
+width: 20%;
+float:left;
+}
+
+
+.center {
+	width: calc(60% - 2px);
+	float:left;
+	border-left: 2px solid green;
+}
+
+
+.right{
+	width: calc (20% - 2px);
+	float: left;
+	border: 2px dashed green;
+	text-align: right;
+	padding: 15px ;
+
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+#contact {
+	text-align: center;
+	display: inline;
+}
+
+footer {
+	clear: left;
+	text-align: center;
+
+}
