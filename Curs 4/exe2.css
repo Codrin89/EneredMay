@@ -1,0 +1,10 @@
+div {
+	text-align: center;
+	font-weight: bold;
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+	text-decoration: underline black;
+	color: black;
+}
