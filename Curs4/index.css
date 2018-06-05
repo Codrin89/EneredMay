@@ -1,0 +1,84 @@
+h1 {
+	font-size: 30px;
+	color: red;
+	text-decoration: underline;
+	text-decoration-color: green;
+	font-weight: bold;
+}
+
+#heading1 {
+	color: black;
+}
+
+.heading1 {
+	size: 25px;
+}
+
+.heading2 {
+	font-weight: normal;
+	color: blue;
+}
+
+p {
+	font-size: 15px;
+	color: green;
+	font-weight: normal;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+#para1 {
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	text-decoration: underline none;
+}
+
+.para1 {
+    font-size: 19px;
+    color: red;
+    text-decoration: none;
+}
+
+.para2 {
+	font-size: 16px;
+	color: blue;
+	font-weight: bold;
+
+}
+
+.para3 {
+	font-weight: lighter;
+	font-style: italic;
+	color: purple;
+
+}
+
+div div {
+	float: left;
+	height: 100px;
+	background-color: yellow;
+}
+
+#div1 {
+	background-color: red;
+	font-size: 18px;
+	color: white;
+	width: 50%;
+
+}
+
+.div2 {
+    width: 50%;
+    background-color: blue;
+    color: green;
+    font-size: 18px;
+
+}
+
+.div3 {
+	width: 25%;
+	background-color: purple;
+	font color: green;
+	font-size: 10px;
+}

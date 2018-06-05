@@ -1,0 +1,38 @@
+h1 {
+	font-size: 40px;
+    background: yellow;
+    text-align: center
+}
+h2 {
+	font-size: 32px;
+}
+.left {
+	width: 20%;
+	float: left;
+}
+.center {
+	width: calc(60% - 2px);
+	float: left;
+	border-left: 2px solid green;
+}
+
+.right {
+	width: calc(20% - 6px);
+	text-align: right;
+	float: left;
+	border: 2px dashed green;
+	padding-right: 2px;
+
+}
+
+.footer {
+	text-align: center;
+	clear: both;
+}
+
+ul {
+	list-style-type: none;
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
