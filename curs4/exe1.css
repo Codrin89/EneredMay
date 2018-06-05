@@ -1,0 +1,22 @@
+h1 {
+	font-size: 30px
+	color: red;
+	text-decoration: underline;
+	text-decoration-color: green;
+	font-weight: bold;
+}
+#heading1 {
+	color: black;
+}
+.heading1 {
+	font-size:  25px;
+}
+.heading2 {
+	color: blue;
+	font-weight: normal;
+}
+p {
+	font-size: 15px;
+	color: green;
+	
+}
