@@ -1,0 +1,21 @@
+h1{
+	background-color: yellow;
+	font-size: 40px;
+	text-align: center;
+}
+h2 {
+	font-size: 32px;
+}
+.left {
+	width: 20%;
+	float: left;
+}
+.center {
+	width: calc(60% - 2px);
+	float: left;
+	border-left: 2px solid green;
+}
+.right {
+	width: 20%;
+	float: left;
+}
