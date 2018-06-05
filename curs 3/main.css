@@ -107,6 +107,7 @@ body{
 	padding-top: 20px;
 	padding-left: 40px;
 	
+	
 }
 .third-section .left p{
 	color:white;
@@ -142,10 +143,21 @@ body{
    
 }
 
-.right{
-	padding-top:10px;
+.third-section .right video{
+	position: relative;
+	bottom: 11px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
+.third-section .left button{
+	position: relative;
+	right: 4px;
+}
+
+.button-input{
+	padding-left: 110px;
+}
 
 
 

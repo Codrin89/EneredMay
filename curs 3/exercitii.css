@@ -1,0 +1,85 @@
+h1{
+	font-size: 30px;
+	color: red;
+    font-weight: bold;
+    text-decoration: underline green;
+
+
+}
+
+p{
+	font-size: 15px;
+	color: green;
+    font-weight: normal;
+    text-decoration: underline red;
+
+}
+#heading1{
+   color: black;
+}
+.heading1{
+	font-size: 25px;
+}
+
+.heading2{
+	font-weight: normal;
+	color: blue;
+}
+
+#para3{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+
+.para1{
+	font-size: 18px;
+    color: red;
+    text-decoration: none;
+
+}
+.para2{
+	font-size: 16px;
+	color: blue;
+	font-weight: bold;
+
+
+}
+
+.para3{
+	font-style: italic;
+	color: purple;
+	font-weight: lighter;
+}
+
+div div{
+	float: left;
+     height: 100px;
+     background-color: yellow;
+}
+
+
+#div1{
+     width: 50%;
+     background-color: red;
+     color: white;
+     font-size: : 20px;
+   
+}
+
+.div2{
+	width: 50%;
+	background-color: blue;
+	color: green;
+	font-size: 18px;
+;
+	
+}
+
+.div3{
+	width: 25%;
+	background-color: purple;
+	color: green;
+	font-size: 10px;
+	
+}
