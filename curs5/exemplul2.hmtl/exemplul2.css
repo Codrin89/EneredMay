@@ -1,0 +1,29 @@
+body {
+	padding-top: 50px;
+}
+
+header {
+	height: 50px;
+	width: 100vw;
+	position: absolute;
+	top:0;
+	left: 0;
+	background:black;
+	color:white;
+}
+.content-wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+.left-menu {
+	float: left;
+	width: 15%;
+}
+.content {
+	float: left;
+	width: 60%;
+}
+.suggested {
+	float: left;
+	width: 20%;
+}
