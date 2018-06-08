@@ -1,0 +1,48 @@
+.col-md-1 {
+	background-color: red;
+}
+.col-md-2 {
+	background-color: orange;
+}
+.col-md-3 {
+	background-color: yellow;
+}
+.col-md-4 {
+	background-color: green;
+}
+.col-md-5 {
+	background-color: magenta;
+}
+.col-md-6 {
+	background-color: grey;
+}
+.col-md-7 {
+	background-color: blue;
+}
+.col-md-8 {
+	background-color: black;
+}
+.col-md-9 {
+	background-color: violet;
+}
+.col-md-10 {
+	background-color: gold;
+}
+.col-md-11 {
+	background-color: white;
+}
+.col-md-12 {
+	background-color: beige;
+}
+@media (max-width: 1000px) {
+	.col-md-1{
+		background-color: green;
+	}
+}
+.img {
+	height: 150px;
+	width: 150px;
+}
+.btn-success {
+	background-color: black; 
+}
