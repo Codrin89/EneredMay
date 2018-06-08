@@ -1,0 +1,113 @@
+
+ header{
+ 	background-color:purple;
+ 	display: table;
+ 	width: 100%;
+ 	
+
+}
+
+header ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 20px 0 20px;
+	color: #d9d9d9;
+}
+
+.first{
+	float: left;
+	padding: 0 20px 0 20px;
+	margin-left: 150px;
+
+
+}
+
+.second{
+	float: right;
+	padding: 0 20px 0 20px;
+	margin-right: 180px;
+}
+
+span{
+	font-size: 25px;
+	color: white;
+}
+
+.signup{
+	background-color: orange;
+	padding: 7px;
+	border-radius: 5px;
+	font-size: 15px;
+
+}
+
+.search{
+	background:url("http://www.endlessicons.com/wp-content/uploads/2015/08/search-icon-2-614x460.png");
+	background-size: cover;
+	width: 30px;
+	height: 20px;
+	background-size: 35px;
+	outline: none;
+	background-repeat: no-repeat;
+	border:none;
+	position: relative;
+	top: 3px;
+
+
+}
+
+.bell{
+    background:url("http://iconshow.me/media/images/ui/ios7-icons/png/512/bell-outline.png");
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	background-size: 23px;
+	outline: none;
+	background-repeat: no-repeat;
+	border:none;
+	position: relative;
+	top: 4px;
+
+}
+
+.page{
+
+	width: 1000px;
+	margin: 0 auto;
+	height: 1000px;
+	color: black;
+
+
+
+}
+
+ul li .popular{
+	display: block;
+}
+
+.meniu{
+	float: left;
+	width: 25%;
+
+}
+
+.content{
+	float: left;
+	width: 60%;
+
+}
+
+.suggested{
+	float: left;
+	width: 15%;
+}
+
+
+.hot{
+
+
+}
+
+.ascending{
+	
+}

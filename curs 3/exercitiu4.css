@@ -1,0 +1,50 @@
+.column-left{
+	width: calc(70% - 24px);
+	border:2px solid black;
+	float: left;
+	text-align: center;
+	padding: 10px;
+	border-top: none;
+	border-right: none;
+}
+
+.column-left2{
+	width: calc(70% - 24px);
+	border:2px solid black;
+	float: left;
+	text-align: center;
+	padding: 10px;
+	
+	border-right: none;
+}
+
+
+
+.column-right{
+	width:calc(30% - 24px);
+	border:2px solid black;
+	float: left;
+	text-align: center;
+	padding: 10px;
+	border-top:none;
+	
+
+}
+
+.column-right2{
+	width:calc(30% - 24px);
+	border:2px solid black;
+	float: left;
+	text-align: center;
+	padding: 10px;
+	
+	
+
+}
+
+.row{
+	width: 50%;
+	margin:0 auto;
+
+
+}
