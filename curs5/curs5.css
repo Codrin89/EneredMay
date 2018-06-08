@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+}
+body {
+	border: 1px solid black;
+	border-top: none;
+	display: table;
+	width: calc(100% - 2px);
+}
+
+.column-left {
+	float:left;
+	width: calc(70% - 32px);
+	padding: 20px 10px 20px 20px;
+	border-right: 2px solid black;
+	border-top: 1px solid black;
+}
+.column-right {
+	float: left;
+	width: calc(30% - 30px);
+	padding: 20px 10px 20px 20px:
+	border-top:1px solid black;
+}
