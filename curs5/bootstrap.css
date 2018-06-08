@@ -1,0 +1,53 @@
+.col-md-1 {
+background-color: blue; 
+}
+
+.col-md-2 {
+background-color: red;
+}
+
+.col-md-3 {
+background-color: yellow;
+}
+
+.col-md-4 {
+background-color: green;
+}
+
+.col-md-5 {
+background-color: grey;
+}
+
+.col-md-6 {
+background-color: orange;
+}
+
+.col-md-7 {
+background-color: azure;
+}
+
+.col-md-8 {
+background-color: cyan;
+}
+
+.col-md-9 {
+background-color: pink;
+}
+
+.col-md-10 {
+background-color: purple;
+}
+
+.col-md-11 {
+background-color: aliceblue;
+}
+
+.col-md-12 {
+background-color: indigo;
+}
+
+@media (max-width: 1000px) {
+	.col-md-1 {
+		background-color: green;
+	}
+}

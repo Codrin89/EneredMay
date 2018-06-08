@@ -1,0 +1,59 @@
+body {
+	padding-top: 50px;
+}
+
+header {
+	height: 50px;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: black;
+	color: white;
+	display:inline;
+}
+
+
+.content-wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.menu {
+	width: 15%;
+	float: left;
+	font-style: italic;
+
+}
+
+
+.content {
+	width: 60% ;
+	float: left;
+	font-style: italic;
+}
+
+.suggested {
+	
+	width: 25%;
+	float: left;
+	font-style: italic;
+
+}
+ 
+p {
+	display: inline-block; 
+	padding: 10px 20px 0px 20px;
+}
+
+.image {
+	width: 100px;
+	height: 100px;
+
+}
+
+
+
+	
+
+
