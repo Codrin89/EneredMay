@@ -1,0 +1,100 @@
+body{
+	width: 800px;
+	margin: 0 auto;
+}
+nav ul{
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 0;
+}
+nav ul li{
+	font-size: 16px;
+	color: #020202;
+	font-style: normal;
+	display: inline-block;
+}
+.logo{
+	display: inline-block;
+}
+.top-banner{
+	position: relative;
+	background-image: url('photoshop/logo2.png');
+	height: 319px;
+}
+.top-banner-button{
+	position: absolute;
+	right: 120px;
+	bottom: 70px;
+	color: #f9fbfc;
+	font-size: 16px;
+	background-color: transparent;
+	border: 2px solid #f9fbfc;
+	background-image: url(photoshop/logo3.png);
+	background-repeat: no-repeat;
+	background-position-x: 144px;
+	background-position-y: center;
+	padding: 9px 42px 9px 20px;  
+}
+.top-banner p{
+	position: absolute;
+	right: 120px;
+	bottom: 98px;
+	color: #f9fbfc;
+	display:inline-block;
+	text-align:center;
+	right:131px;
+	font-size:30px;
+	font-style:italic;
+}
+.top-banner p span{
+	font-style: normal;
+	font-size: 34px;
+}
+.collections h1{
+	text-align: center;
+	font-color:#030303;
+	font-size: 23px;
+	font-style: normal;
+}
+.collections .item-section{
+	width: 50%;
+	float: left;
+	height: 237px;
+}
+
+.collections .item-section img{
+	width: 100%;
+	height: 100%;
+}
+.collections button{
+	font-size: 16px;
+	font-style: normal;
+	background-color: transparent;
+	color: #ab7903;
+	border-color: #ab7903;
+	border: all;
+}
+.collections .jos{
+	background-color: #ab7903;
+	background-image: url(photoshop/logo7.png);
+	background-repeat: no-repeat;
+	background-position-x: 144px;
+	background-position-y: center;
+	padding: 0px 42px 0px 0px;
+	height: 50px;
+	margin-top: 36px;
+
+}
+.collections .jos p{
+	color: white;
+	text-align: center;
+	display: inline-block;
+}
+.collections{
+	text-align: center;
+}
+.best-sellers h1{
+	font-size: 36px;
+	text-align: center;
+	font-color: #030303;
+}
