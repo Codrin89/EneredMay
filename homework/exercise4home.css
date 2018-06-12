@@ -1,0 +1,35 @@
+
+
+.row {
+    border: 1px black solid;
+    margin: 10px;
+    border-top: none;
+}
+
+.col-md-8 {
+    border-top: 1px black solid;
+    border-left: 1px black solid;
+}
+
+.col-md-4 {
+      border-top: 1px black solid;
+}
+
+
+h2 {
+    font: Georgia;
+    color: darkred;
+    font-size: 18px;
+    letter-spacing: 0.4em;
+}
+
+h1 {
+    font-family: Georgia;
+    color: blue;
+    background-color: lightgrey;
+    font-style: solid;
+    font-size: 24px;
+    letter-spacing: 0.6em;
+    word-spacing: 2em;
+    text-align: center;
+}
