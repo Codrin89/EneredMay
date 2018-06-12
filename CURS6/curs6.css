@@ -1,0 +1,82 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+.logo {
+	display: inline-block;
+}
+nav ul {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 0;
+}
+nav ul li {
+	display: inline-block;
+	font-size: 16px;
+	color: #020202;
+	font-weight: normal;
+}
+.top-banner {
+	position: relative;
+	background-image: url('logo2.png');
+	height: 319px;
+
+}
+.top-banner button {
+	position: absolute;
+	right: 120px;
+	bottom: 80px;
+	color:#f9fbfc;
+	font-size: 16px;
+	background-color: transparent;
+	border: 2px solid #f9fbfc;
+	background-image: url('arrow.png');
+	background-repeat: no-repeat;
+	background-position-x:144px; 
+	background-position-y:center;
+	padding: 5px 40px 5px 20px;
+
+}
+.top-banner p {
+	color: #f9fbfc;
+	position: absolute;
+	bottom: 93px;
+	display: inline-block;
+	text-align: center;
+	right: 131px;
+	font-size: 34px;
+	font-style: italic;
+}
+.top-banner p span {
+	font-style: normal;                    
+	font-size: 34px; 
+}
+.item-section img {
+	width: 100%;
+	height: 100%;
+}
+.item-section {
+	height: 236px;
+	float: left;
+	width: 400px;
+}
+.collections-title {
+	text-align: center;
+	font-style: bold;
+	font-size: 22.5px;
+	color: #030303;
+}
+.item-section button {
+	bottom: 6.9px;
+	color:#ab7903;
+	font-size: 16px;
+	border: 2px solid;
+	background-color: transparent;
+}
+.alina {
+	bottom: 10.46px;
+	color:#fbfcfd;
+	font-size: 16px;
+	border: 2px solid;
+	background-color: #473b12;
+}
