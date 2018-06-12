@@ -1,0 +1,132 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.logo {
+	display: inline-block;
+}
+
+nav ul {
+	list-style-type: none;
+	display: inline-block;'
+	padding-left: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	color: #020202;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.top-banner {
+	background-image:url('img/Homepage1.png');
+	position: relative;
+	height: 319px;
+	width: 754px;
+	margin: 0 auto
+}
+
+.top-banner button {
+	position: absolute;
+    right: 87px;
+    bottom: 62px;
+    color: #f9fbfc;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #f9fbfc;
+    background-image: url('img/arrow.png');
+    background-repeat: no-repeat;
+    background-position-x: 144px;
+    background-position-y: center;
+    padding: 9px 42px 9px 20px;  
+}
+
+.top-banner p {
+	position: absolute;
+    right: 113px;
+    top: 93px;
+    font-size: 30px;
+    color: white; 
+    text-align: center;
+    font-style: italic;
+}
+
+.top-banner p span {
+	font-style: normal;
+	font-size: 34px;
+
+}
+
+.right-navigation {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 0;
+}
+
+.item-section {
+	width: 50%;
+	float: left;	
+}
+
+.item-section img {
+	width: 100%;
+	height: 100%;
+
+}
+
+.item {
+	clear: both;
+}
+
+.item-section button {
+	color: #ab7903;
+	background-color: transparent;
+	font-size: 7px;
+	border: 2px solid #ab7903;
+	background-repeat: no-repeat;
+    background-position-x: 159px;
+    background-position-y: center;
+    padding: 10px 13px 11px 21px;
+    margin-left: 100px;
+}
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+p {
+	font-size: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.item-collection {
+	text-align: center;
+	position: relative;
+    right: -302px;
+    bottom: -19px;
+    color: white;
+    font-size: 16px;
+    background-color: #ab7903;
+    border: none;
+    background-image: url('img/arrow.png');
+    background-repeat: no-repeat;
+    background-position-x: 194px;
+    background-position-y: center;
+    padding: 9px 42px 9px 20px;  
+}
+
+h4 {
+	text-align: center;
+    font-size: 30px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 25px;
+}
