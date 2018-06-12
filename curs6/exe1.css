@@ -1,0 +1,193 @@
+ body{
+ 	width: 800px;
+ 	margin:0 auto;
+ }
+
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ }
+ nav{
+ 	background-color: white;
+ 	display: table;
+ }
+
+ nav ul li{
+	color: #020202;
+	font-size: 16px;
+	font-weight: normal;
+	display: inline-block;
+	padding-left: 13px;
+	padding-right: 13px;
+	color: grey;
+
+}
+
+nav ul{
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 0;
+
+}
+
+nav .left{
+	padding-left: 20px;
+	padding-bottom: 15px;
+	position: relative;
+	bottom: 8px;
+}
+
+ .right-navigation{
+	float: right;
+	padding-top: 35px;
+}
+
+.logo{
+	display: inline-block;
+	padding-left: 18px;
+	padding-top: 10px;
+	position: relative;
+	top: 12px;
+	width: 70px;
+}
+
+.top-banner{
+	background-image: url("img/poza.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 319px;
+	position: relative;
+
+}
+.top-banner-button{
+	position: absolute;
+	left: 500px;
+	top: 230px;
+	background-color:#9ba3e3;
+	padding:10px 40px 10px 20px;
+	color: white;
+	border:2px solid #f9fbfc;
+	font-size: 16px;
+	background-color: transparent;
+	background-image: url("img/arrow.png");
+	background-repeat: no-repeat;
+	background-position-x:142px;
+	background-position-y:center; 
+
+
+	
+}
+
+.top-banner p{
+    font-size: 30px;
+    font-style: bold;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    right: 142px;
+    bottom: 120px;
+    color: #f9fbfc;
+
+
+
+}
+
+span{
+	font-style: italic;
+}
+h2{
+	text-align: center;
+	color:black;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.item-section{
+	float: left;
+	width: 50%;
+
+
+}
+
+.item-section .right{
+	padding-top: 40px;
+	padding-left: 40px;
+
+}
+
+.item{
+	clear: both;
+}
+
+.buttons{
+	border:3px solid #b58922;
+	padding: 5px 20px;
+	color:  #b58922;
+	background-color: white;
+	font-style: bold;
+}
+
+.item-section .left{
+	padding: 40px;
+}
+
+.img1{
+	padding-left: 54px;
+}
+
+.img2{
+	padding-right: 54px;
+	position: relative;
+	bottom: 5px;
+}
+
+.morecollections{
+	color: white;
+	padding: 5px 45px 5px 30px;
+	background-color: #ab7903;
+	border:2px solid #ab7903;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 17px;
+	position: relative;
+	right: 130px;
+	background-image: url("img/arrow.png");
+	background-repeat: no-repeat;
+	background-position-x:165px;
+	background-position-y:center; 
+	
+
+
+}
+
+h1{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-right: 65px;
+}
+
+.best-sellers {
+	height: 587px;
+	width: 800px;
+	background-color: #e5e4e4;
+	clear: both;
+
+}
+
+.best-sellers h1{
+	padding-top: 50px;
+}
+
+.sellers-items{
+	display: inline-block;
+	width: 240px;
+	margin: 0 auto;
+	padding-left: 30px;
+
+}
+
+.moreitems{
+	clear: both;
+}
