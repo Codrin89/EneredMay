@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(img/background.png);
+	min-height: 100vh;
+	background-size: cover;
+}
+.login-form {
+	width: 488px;
+	height:390px;
+	background-color: #fff;
+	position: relative;
+	margin: 0 auto;
+	text-align: center; 
+	padding: 35px 60px;
+}
+
+.login-form h3{
+	color: #6b4896;
+	font-size: 18px;
+
+}
+.login-form .login-inputs {
+	border: none;
+	border-bottom: 1px solid #d9d9d9;
+	outline:none;
+	width: 100%;
+	font-size: 14px;
+	color: #a1a1a1;
+	text-align: center;
+	padding: 15px 0;
+}
+.login-inputs.username {
+	background-image: url("img/user.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+} 
+.login-inputs.password {
+	background-image: url("img/locked.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+} 
