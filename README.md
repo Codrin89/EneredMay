@@ -24,3 +24,4 @@ Steps for github syncronizations:
 
  Link to photoshop : https://www.dropbox.com/sh/z9t6nu5exy8qg7z/AABSGdZfQPb-Z2figPPP1lfia?dl=0
  Link to photoshop asset : https://drive.google.com/open?id=1daA91cm55ai61pEIqM94f5ZDSlEWfVyY
+ 
