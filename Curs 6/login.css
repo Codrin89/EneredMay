@@ -1,0 +1,111 @@
+*{
+	margin: 0 ;
+	padding: 0;
+}
+body{
+	background-image: url("img/0_login.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+  
+   
+}
+
+
+.login-form{
+	width: 485px;
+	background-color: #fff;
+	position: relative;
+	top:115px;
+	margin: 0 auto;
+	height: 320px; 
+	text-align: center;
+	padding: 35px 60px; 
+
+
+}
+
+.login-form .paragraf{
+    color: #6b4896;
+	font-size: 18px;
+	margin-bottom: 40px;
+
+}
+
+.login-form .login-inputs{
+	border: none;
+	border-bottom: 1px solid #d9d9d9;
+	outline: none;
+	width: 100%;
+	font-size: 14px;
+	color: #a1a1a1;
+	text-align: center;
+	padding: 25px 0 15px 0;
+
+}
+.login-form .username{
+	background-image: url("img/man.png");
+	background-repeat: no-repeat;
+	background-position:10px center;  
+	padding: 15px 0;
+}
+
+
+.login-form .password{
+	background-image: url("img/lacat.png");
+	background-repeat: no-repeat;
+	background-position:10px center;  
+	padding: 15px 0;
+}
+
+
+.login-form .login-button{
+	font-size: 16px;
+	font-style: #fff;
+	width: 180px;
+	text-align: center;
+	padding: 15px auto;
+	margin-top: 25px;
+	border:none;
+	outline: none;
+	background-color: #6b4896;
+	padding: 17px 35px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
