@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('photoshop/poza1.png');
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.login-forum{
+	width: 485px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 35px 60px;
+}
+.login-forum h1{
+	color: #6b4896;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.login-forum p{
+	color: #a1a1a1
+	font-size:14px;
+	text-align: center;
+
+}
