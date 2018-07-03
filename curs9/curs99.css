@@ -1,0 +1,39 @@
+
+.card-container, body {background-color: #660000;
+}
+.card-info {
+	background-color: #fff;
+}
+.card-info {
+	background-color: #76c38f;
+	color: white;
+}
+.line {
+	background-color: #303030;
+	height: 3px;
+	position: relative;
+	z-index: 10;
+	top: 20px;
+}
+.latest span {
+	color: #fff;
+	background-color: #3030303;
+	font-size: 25px;
+	padding: 3px 5px;
+	position: relative;
+	z-index: 20;
+}
+.latest {
+	text-align: center;
+
+}
+.image-card span {
+	width: 290px;
+	position: absolute;
+	left:calc((100% - 290px)/2);
+	bottom:0;
+	background-color: rgba(0,0,0,0.6);
+}
+.image-card {
+	margin-bottom: 10px;
+}
