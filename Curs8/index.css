@@ -1,0 +1,37 @@
+.col-md-1 {
+	border: 1px solid grey;
+}
+
+.col-md-4 {
+	border: 1px solid grey;
+	background: yellow;
+}
+
+.col-md-3 {
+	border: 1px solid grey;
+	background: purple;
+}
+
+.col-md-6 {
+	border: 1px solid grey;
+	background: salmon;
+}
+
+@media (max-width: 1000px) {
+	.col-md-1 {
+		background: red;
+	}
+
+}
+@media (max-width: 800px) {
+	.col-md-1 {
+		background: green;
+	}
+	
+}
+@media (max-width: 500px) {
+	.col-md-1 {
+		background: blue;
+	}
+	
+}
