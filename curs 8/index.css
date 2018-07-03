@@ -55,7 +55,7 @@
 	display: inline-block;
 	width: 350px;
 	position: relative;
-	bottom: 140px;
+	bottom: -60px;
 
 }
 .wrapper .carousel .right-content{
@@ -67,4 +67,46 @@
 	width: 380px;
 	height: 380px;
 	margin-top: 40px;
+}
+.row{
+	background-color: #660000;
+}
+.card-info{
+	background-color: white;
+	text-align: center;
+
+}
+body{
+	background-color: #660000;
+}
+.card-info:hover{
+	background-color: #76c38f;
+	color: white;
+}
+
+.line{
+	background-color: #303030;
+	height: 3px;
+	position: relative;
+	top: 20px;
+	z-index: 10;
+}
+.latest span{
+	position: relative;
+	z-index: 20;
+	background-color: #303030;
+	color: #fff;
+	padding: 3px 5px;
+	font-size: 25px;
+}
+.latest{
+	text-align: center;
+}
+.image-card span{
+	width: 290px;
+	position: absolute;
+	left:calc((100% - 290px)/2);
+	bottom: 0;
+	background-color: rgba(0,0,0,0.6);
+
 }
