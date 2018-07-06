@@ -1,0 +1,44 @@
+body {
+background-image: url('poza10.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.logo {
+	margin-top: 5%;
+	padding-right: 10%;
+	text-align: right;
+}
+.logo img {
+	width: 20%;
+}
+.headline {
+	font-size: 75px;
+	text-align: center;
+	color: white;
+}
+.headline span {
+	color: red;
+}
+.services-wrapper {
+	width:49%;
+	display: inline-block;
+}
+.services-wrapper .title {
+	color: red;
+	font-weight: bold;
+	font-size: 25px;
+}
+.services-wrapper ul {
+		list-style-image: url('button1.png');
+}
+.title {
+	color: red;
+	font-size: 25px;
+}
+.services-item {
+	width: 33.33%;
+	float: left;
+}
+.services-item {
+	padding: 0 10px;
+}
