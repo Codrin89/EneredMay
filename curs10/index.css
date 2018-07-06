@@ -1,0 +1,44 @@
+body {
+	background-image: url('image.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo{
+	margin-top: 5%;
+	padding-right: 10%;
+	text-align: right;
+}
+.logo img {
+	width: 20%;
+}
+.headline{
+    font-size: 75px; 
+	text-align: center;
+	color: white;
+    margin-bottom: 220px;
+}
+.headline span{
+	color: red;
+}
+.services-wrapper .title{
+	color: red;
+	font-weight: bold;
+	font-size: 25px;
+}
+.services-wrapper ul{
+	list-style-image: url('poze/li.png'); 
+	font-size: 18px;
+	color: black;
+}
+.row services2{
+	text-align: center;
+}
+.col-md-4 .title{
+	font-size: 18px;
+	color: red;
+}
+.services3{
+	background-image: url('line.png');
+	height: 150px;
+    background-size: cover;
+}
