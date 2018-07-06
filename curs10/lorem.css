@@ -1,0 +1,111 @@
+body{
+	background: url("https://raw.githubusercontent.com/Codrin89/EneredMay/master/curs10/images/bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	position: relative;
+	left: 150px;
+
+}
+
+span{
+	color: #da1e35;
+}
+
+
+.title{
+	margin-top: 200px;
+}
+
+.logo{
+	float: right;
+	margin-top: 50px;
+	margin-right: 80px;
+	width: 20%;
+}
+
+.logo img{
+	max-width: 100%;
+	position: relative;
+	bottom: 170px;
+}
+
+.content{
+	margin-top: 200px;
+}
+
+.left{
+	width: 50%;
+	float: left;
+	position: relative;
+	left: 50px;
+}
+
+.left .title2{
+	color:#da1e35;
+	font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	left: 10px;
+}
+
+.right .title2{
+	color:#da1e35;
+	font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	left: 10px;
+}
+ul li{
+	list-style-image: url("check.png");
+	color: white;
+
+
+}
+
+.right p{
+	color: white;
+	padding-top: 10px;
+	
+	
+}
+
+.box1{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+
+.box1 .titlu{
+     color: #da1e35;
+     position: relative;
+     left: 60px;
+}
+
+
+.box1 p{
+	padding: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
