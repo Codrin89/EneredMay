@@ -1,0 +1,48 @@
+body {
+	background-image: url('images/bg.png');
+	background-repeat: no-repeat;
+	background-size:  cover;
+}
+.logo {
+	margin-top: 5%;
+	padding-right: 10%;
+	text-align: right;
+}
+.logo img {
+	width: 20%;
+}
+.healdine {
+	font-size: 75px;
+	text-align: center;
+	color: white;
+}
+.healdine span {
+	color: red;
+}
+.services-wrapper {
+	width: 49%;
+	display: inline-block;
+	
+}
+.services.wrapper .title {
+	color: red;
+	font-weight: bold;
+	font-size: 25px;
+}
+.services-wrapper ul{
+	list-style-image: url('images/buton10.png');
+
+}
+.title {
+	color:red;
+	font-size: 25px;
+
+}
+.services-item {
+	width: 33.33%;
+	float: left;
+
+}
+.services-item p{
+	padding: 0 10px;
+}
