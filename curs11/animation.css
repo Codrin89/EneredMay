@@ -1,0 +1,89 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: RightToLeftInPercent; 
+    animation-duration: 4s; 
+/*    animation-iteration-count: infinite;*/
+}
+
+@keyframes RightToLeft {
+    from {left:0px;}
+    to {left:800px;}
+}
+
+
+@keyframes RightToLeftInPercent {
+    0% {left:0px;}
+    25% {left:200px;}
+    50% {left:0px;}
+    75% {left:200px;}
+    100% {left:0px;}
+}
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    border-radius: 50%;
+    left:0;
+    animation-name: AnimationCircle; 
+    animation-duration: 40s; 
+}
+
+@keyframes AnimationCircle {
+    25% {
+        width:150px;
+        height:150px;
+        background-color:green;
+    }
+
+    50% {
+        left:200px;
+        background-color: purple;
+        opacity:0.2;}
+
+    75% {
+        width:250;
+        height:250px; 
+        background-color:green;
+        opacity:1;
+    }
+    100% {
+        left:0;
+        width:100px;
+        height:100px;
+        background-color:red;
+    }
+
+}
+
+.transition-box {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transition: width 2s;
+}
+
+.transition-box:hover {
+    width: 300px;
+}
+
+
+.transition-box-left {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    left:0;
+    top:0;
+    transition: left 2s;
+}
+
+.transition-box-left:active {
+    left: 100px;
+    top: 100px;
+}
