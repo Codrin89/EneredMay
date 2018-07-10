@@ -1,0 +1,176 @@
+.red {
+	background-color: red;
+}
+.blue {
+	background-color: blue;
+}
+.green {
+	background-color: green;
+}
+.yellow {
+	background-color: yellow;
+}
+.box1 .red,
+.box1 .yellow,
+.box1 .blue,
+.box1 .green{
+	height: 50px;
+}
+.box2 .red,
+.box2 .yellow,
+.box2 .blue,
+.box2 .green{
+	height: 50px;
+	float: right;
+}
+.box3 .red,
+.box3 .yellow,
+.box3 .blue,
+.box3 .green{
+	height: 100px;
+	font-size: 20px;
+}
+.box4 .red,
+.box4 .green{
+	width: 100%;
+	height: 40px;
+}
+.box4 .blue,
+.box4 .yellow{
+	height: 20px;
+}
+.box5 .green{
+	display: none;
+}
+.box5 .red,
+.box5 .yellow,
+.box5 .blue{
+	height: 30px;
+}
+.box6 .blue{
+	display: none;
+}
+.box6 .red,
+.box6 .yellow,
+.box6 .green{
+	height: 30px;
+}
+.box7 .blue,
+.box7 .red,
+.box7 .yellow,
+.box7 .green{
+	height: 20px;
+}
+.box8 .blue,
+.box8 .red,
+.box8 .yellow,
+.box8 .green{
+	height: 40px;
+}
+.box9 .blue{
+	height: 35px;
+}
+.box9 .red{
+	height: 35px;
+}
+.box10 .blue{
+	height: 35px;
+}
+.box10 .red{
+	height: 35px;
+}
+
+
+@keyframes doll{
+    from {background-color: blue;}
+    to {background-color: red;}
+}
+
+.blue{
+    background-color: blue;
+    animation-name: doll;
+    animation-duration: 10s;
+}
+@keyframes ll{
+    from {background-color: blue;}
+    to {background-color: cyan;}
+}
+
+.green{
+    background-color: cyan;
+    animation-name: ll;
+    animation-duration: 10s;
+}
+@keyframes dll{
+    from {background-color: red;}
+    to {background-color: black;}
+}
+
+.red{
+    background-color: red;
+    animation-name: dll;
+    animation-duration: 10s;                          
+}
+@keyframes l{
+    from {background-color: yellow;}
+    to {background-color: deeppink;}
+}
+
+.yellow{
+    background-color: deeppink;
+    animation-name: l;
+    animation-duration: 10s;                          
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+.box1{
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation: example 3s linear 3s infinite alternate;
+}
+@keyframes xample {
+    0%   {background-color:red; left:100px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:100px; top:0px;}
+}
+.box2{
+    position: relative;
+    background-color: red;
+    animation-name: xample;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: 5s;
+    animation-direction:alternate-reverse;
+    transition: width 2s;
+}
+@keyframes ample {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+.box3{
+    position: relative;
+    background-color: red;
+    animation-name: ample;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation: ample 3s ease 3s infinite alternate;
+    animation-fill-mode: both;
+}
+
