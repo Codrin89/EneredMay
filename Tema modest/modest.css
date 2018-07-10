@@ -1,0 +1,9 @@
+.head {
+	height: 50px;
+	background-color: blue;
+}
+.banner {
+	background-image: url(img/banner.jpg);
+	background-size: cover;
+	height: 600px;
+}
