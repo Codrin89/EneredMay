@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.logo-section{
+	background-image: url('images/restaurantfront.png');
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.menu-section {
+	padding: 0;
+}
+.contact-section{
+	padding: 0;
+	background-color: #191818;
+	text-align: center;
+
+
+}
+.contact-section h1 {
+	color: #ec563d;
+	font-size: 22px;
+	padding: 0;
+}
