@@ -1,0 +1,117 @@
+.red {
+	background-color: red;
+}
+.blue {
+	background-color: blue;
+}
+.green {
+	background-color: green;
+}
+.yellow {
+	background-color: yellow;
+}
+.box1 .red,
+.box1 .blue,
+.box1 .green,
+.box1 .yellow 
+{
+	height: 50px;
+	width: 25%;
+	float: left;
+}
+.box2 .green,
+.box2 .blue,
+.box2 .yellow,
+.box2 .red
+{
+	height: 50px;
+	width: 25%;
+	float: right;
+} 
+.box3 .green,
+.box3 .blue,
+.box3 .yellow,
+.box3 .red
+{
+	height: 100px;
+	width: 50%;
+	float: left;
+	font-size: 20px;
+}
+.box4 .green,
+.box4 .red
+{
+	height: 40px;
+	width: 100%;
+	float: left;
+}
+.box4 .blue,
+.box4 .yellow
+{
+	height: 20px;
+	width: 50%;
+	float: left;
+}
+.box5 .green
+{
+	display: none;
+}
+.box5 .blue,
+.box5 .yellow,
+.box5 .red
+{
+	height: 30px;
+	width: 33.333%;
+	float: left;
+}
+.box6 .green
+{
+	display: none;
+}
+.box6 .yellow,
+.box6 .blue,
+.box6 .red
+{
+	height: 30px;
+	width: 33.333%;
+	float: left;
+}
+.box7 .red,
+.box7 .green,
+.box7 .yellow,
+.box7 .blue
+{
+	height: 30px;
+	width: 25%;
+	float: right;
+}
+.box8 .red,
+.box8 .green,
+.box8 .yellow,
+.box8 .blue 
+{
+	height: 10px;
+	width: 25%;
+	float: left;
+}
+.box9 .red,
+.box9 .blue {
+	height: 35px;
+	float: left;
+}
+.box9 .blue{
+	width: 50%;
+}
+.box9 .red{
+	width:30%;
+	margin-left: 20%;
+}
+.box10 .blue{
+	float: right;
+}
+.box10 .red{
+	float: right;
+	margin-right: 20%;
+	margin-left: 0;
+}
+

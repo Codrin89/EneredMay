@@ -1,0 +1,23 @@
+/*HELPERS*/
+.noPadding {
+	padding: 0 !important;
+}
+.img-responsive{
+	width: 100%;
+}
+.logo-section {
+	background-image: url('image3.jpg');
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.contact-section {
+	background-color: #191818;
+	text-align: center;
+}
+.contact-section p {
+	margin-bottom: 0;
+}
+.logo-section {
+	background-image: url('image3');
+
+}

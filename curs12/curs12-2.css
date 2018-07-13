@@ -1,0 +1,25 @@
+.white-space {
+	height: 30px;
+}
+.black-space {
+	font-size: 25px;
+	font-weight: bold;
+	background: #000;
+	color: #fff;
+	padding: 10px 0;
+}
+.noPadding {
+	padding: 0 !important
+}
+.extraPadding {
+	padding: 0-30px;
+}
+.tittle {
+	margin: 20px 0;
+	background: #eb563e;
+	color: #fff;
+	padding: 10px 0 !important;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+}
