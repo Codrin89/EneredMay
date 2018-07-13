@@ -1,0 +1,38 @@
+.noPadding {
+	padding: 0 !important;
+}
+
+.contact-section {
+	background-color: #353535;
+    display: inline-block;
+   
+}
+
+.contact-section h4 {
+	padding: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #eb563e;
+	font-weight: bold;
+
+}
+
+.contact-section p {
+	text-align: center;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 0px 50px 50px;
+}
+
+.logo-section {
+	background-image: url('images/image2.png');
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.logo-section {
+	width: 200px;
+	height: 100px;
+	color: red;
+}
+
