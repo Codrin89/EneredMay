@@ -1,0 +1,40 @@
+
+
+.transition-box{
+	width: 100px;
+	height: 100px;
+	transition: width 2s;
+	background-color: blue;
+}
+
+.transition-box:hover{
+	width: 300px;
+
+
+
+}
+.transitiopn-box-full{
+
+}
+
+.box4{
+	width: 100px;
+	height:100px;
+	transition: all 2s;
+
+	background-color: purple;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.box4:active{
+	left: 100px;
+	top: 100px;
+}
+
+
+
+
+
+
