@@ -1,0 +1,66 @@
+.section1 .header {
+	background-color: #19283f;
+	height: 496px;
+}
+.section1 .noPadding {
+	padding: 0 !important;
+}
+.section1 .logo {
+	float: left;
+	position: relative;
+    margin-left: 300px;
+    margin-top: 14px;
+}
+.section1 .menu {
+	margin-top: 32px;
+    margin-right: 10px;
+    float: right;
+    font-size: 15px;
+    margin-right: 300px;
+}
+.section1 .menu .login-button {
+	background-color: #ff3150;
+	color: #ffc501;
+	font-size: 15px;
+	padding: 9px 20px;
+    border-radius: 15px;
+}
+.section1 .main-title {
+	text-align: center;
+	margin-top: 215px;
+}
+.section1 .main-title h1 {
+	font-size: 51px;
+	color: #f0f8fb;
+}
+.section1 .main-title p {
+	font-size: 15px;
+}
+.section1 .get-started .get-started-button {
+	background-color: #ff3150;
+	color: #ffc501;
+	font-size: 15px;
+	padding: 11px 40px;
+    border-radius: 15px;
+    position: relative;
+}
+.header2 .avast {
+	padding-top: 60px;
+}
+.header2 .down-title h1 {
+	font-size: 35px;
+	color: #1a2940;
+}
+.header2 .icon-item h2 {
+	color: #ffc501;
+	font-size: 20px;
+}
+.header2 .green-line {
+	height: 2px;
+	background-color: #00c6bf;
+	max-width: 150px;
+	margin: 20px 0;
+	position: relative;
+	float: left;
+	margin-left: calc(100% - (50% + 75px));
+}
