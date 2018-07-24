@@ -1,0 +1,133 @@
+.section2 {
+	background-color: #fff;
+}
+.section2 .menu {
+	border-bottom:2px solid yellow;
+	padding: 30px 0;
+}
+.menu-item {
+	float: right;
+	padding: 8px 20px;
+	border: 1px solid white;
+	text-transform: uppercase;
+	color: #8e8e8e;
+}
+.menu-item:hover {
+	border-color: yellow; 
+	cursor: pointer;
+	color: #131316;
+}
+.text-center{
+	text-transform: uppercase;
+	padding: 118px;
+}
+.text-center h3{
+	color: #131316;
+	size: 25px;
+}
+.text-center p{
+	color: #ffe600;
+	size: 15px;
+}
+.col-md-3{
+	margin: 0px 31px 10px;
+	size: 25px;
+}
+.col-md-3 span{
+	margin-left: 15px;
+	margin-right: 18px;
+	border-right: 2px solid #ffe600;
+	color: #ffe600;
+	size: 25px;
+}
+.col-md-3 .text{
+	text-align: center;
+	color: #8e8e8e;
+}
+.col-md-3 .txt{
+	text-transform: uppercase;
+}
+.text h3{
+	color: #131316;
+	size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.text p{
+	color: #ffe600;
+	size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.col-md-2{
+	background-color: #f3f3f3;
+	width: 24.666667%;
+	height: 200px;
+	border: 10px solid white;
+	padding: 25px;
+	margin: 0px;
+}
+.diferit{
+	background-color: #ffeb33;
+}
+.diferit h3{
+	color: #131316;
+	size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.diferit p{
+	color: white;
+	size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.down-text h3{
+	color: #ffe600;
+	size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.down-text img{
+	position: relative;
+    top: 5px;
+    right: 0px;
+    left: 538px;
+}
+.up-text h3{
+	color: #131316;
+	size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.up-text p{
+	color: #ffe600;
+	size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.col-md-6{
+	background-color: #ffe600;
+	border: none;
+	color: white;
+}
+.col-md-8{
+	background-color: #ffe600;
+	border: 10px solid white;
+	color: white;
+}
+.send{
+	background-color: #131316;
+	color: #ffe600;
+	align-items: center;
+	text-align: center;
+	left: 187px;
+}
+.subject{
+	height: 100px;
+	resize: none;
+}
+.mesage{
+	height: 100px;
+	resize: none;
+}
