@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.section1 {
+	background-image: url('bg.png');
+}
+.section1 .header {
+	margin-bottom: 200px;
+}
+.section1 .header-button {
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 35px;
+	padding-left: 35px;
+	font-size: 12px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: white;
+	margin-top: 60px;
+	margin-right: 10px;
+}
+.section1 .header-button.dark {
+	background-color: #262a34;
+}
+.section1 .header img {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.section1 .header-bottom-part img {
+	width: 33%;
+}
+.section1 .header-bottom-part .header-text-area {
+	width: 50%;
+	float: right;
+	font-size: 43px;
+}
+.section1 .header-buttom-part img {
+	padding-top: 88px;
+	padding-bottom: 15px;
+	padding-right: 35px;
+	padding-left: 35px;
+	float: right;
+}
