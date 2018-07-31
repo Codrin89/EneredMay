@@ -1,0 +1,55 @@
+h1 {
+	color: #ffffff;
+	background-color: rgba(5,6,7,0.5);
+	font-size: 40px;
+	font-weight: normal;
+	font-style: italic;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.wrapper{
+	background-color: blue;
+	color: #fff;
+	width: 810px;
+	height: 506px;
+	background-image: url("http://bdfjade.com/data/out/102/6066356-wallpaper-image.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.green-input.text-input {
+	background-color: green;
+}
+#blue-input{
+	background-color: purple;
+}
+input.text-input{
+	color: red;
+	padding: 5px;
+	margin: 20px;
+	border: 2px solid blue;
+	border-radius: 10px;
+	outline: none;
+	background-color: red;
+}
+.text-input:hover {
+	border:2px solid green;
+}
+#text-input {
+	width:300px
+	padding: 3px;
+	font-size:30px;
+}
+.text-input{
+	color: green;
+}
+
+.first-layer {
+	width: 50%;
+	height: 100px;
+	border: 1px solid yellow;
+	background-color: orange;
+}
+.first-layer .layer {
+	background-color: red;
+	height: 50px;
+}

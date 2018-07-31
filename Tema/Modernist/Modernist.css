@@ -1,0 +1,67 @@
+body {
+	padding: 0 !important;
+}
+.green-line {
+	height:5px;
+	background-color: #76c38f;
+}
+.row {
+	margin-top: 40px;
+}
+.row img {
+	float: left;
+	margin-right: 140px;
+}
+.row a {
+	float: left;
+	padding: 10px 20px;
+	margin-left: 10px;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: white;
+	border: none;
+	background-color: transparent;
+}
+.row a:hover {
+	cursor: pointer;
+	background-color: #76c38f;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 10px 20px;
+	color: white;
+}
+.wrapper {
+	background-color: #290000;
+}
+.carousel {
+	margin: 45px 0;
+}
+.left-content h1 {
+	font-size: 45px;
+	color: white;
+	text-align: left;
+}
+.left-content p {
+	color: #979797;
+	font-size: 12px;
+	text-align: left;
+}
+.left-content a ,
+.left-content a:hover{
+	cursor: pointer;
+	background-color: #76c38f;
+	border:none;
+	border-radius: 5px;
+	text-transform: capitalize;
+	font-size: 13px;
+	padding: 10px 20px;
+	color: white;
+}
+.img-circle {
+	border: 25px solid #6b6b6b;
+}
+.carousel-slide .arrow {
+	width:10%;
+	top: 190px;
+}

@@ -1,0 +1,2 @@
+tag < clasa
+id > clasa
