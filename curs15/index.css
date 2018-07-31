@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.nav {
+	background-color: #26292e;
+	padding: 20px;
+	text-align: center;
+} 
+.nav .vodaf {
+	float: left;
+}
+.menu {
+	background-color: #26292e;
+	padding: 20px;
+}
+.menu .menu-item {
+	width: calc(25% - 3px);
+	display: inline-block;
+	font-size: 30px;
+	text-align: center;
+	color: #656d78;
+}
+.info {
+	background-color: #1e2126;
+	padding: 20px;
+	font-size: 35px;
+	color: white;
+}
+.info .right {
+	float: right;
+	color: #656d78;
+}
+.info button.right {
+	font-size: 30px;
+    background: purple;
+    padding: 13px 30px;
+    border-radius: 33px;
+    border: none;
+    color: white;
+}
+.bill {
+	position: relative;
+	top:-15px;
+}
+
+.follow {
+	position: relative;
+	top: 4px;
+	right:60px;
+
+}
