@@ -1,0 +1,136 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.romanian-flag div {
+	height: 100px;
+	width: 33.33%;
+	float: left;
+}
+
+.romanian-flag .red {
+	background-color: red;
+}
+
+.romanian-flag .yellow {
+	background-color: yellow;
+}
+
+.romanian-flag .blue {
+	background-color: blue;
+}
+
+
+.japanesse-flag {
+	height: 100px;
+	float: left;
+	width: 100%;
+
+}
+.japanesse-flag div {
+	height: 40px;
+	width: 40px;
+	margin: 30px auto;
+}
+
+.japanesse-flag .red {
+	background-color: #C70025;
+	border-radius:50%;
+}
+
+.german-flag div {
+	height: 33px;
+	width: 100%;
+	float: left;
+}
+
+.german-flag .black {
+	background-color: black;
+}
+
+.german-flag .yellow {
+	background-color: yellow;
+}
+
+.german-flag .red {
+	background-color: red;
+}
+
+.canada-flag div {
+	height: 200px;
+	width: 100%;
+}
+
+.canada-flag .red {
+	background-color: red;
+	width: 25%;
+	float: left;
+}
+
+.canada-flag .leaf {
+	width: 50%;
+    float: left;
+    text-align: center;
+ }
+
+ img {
+ 	height:200px;
+ }
+
+.colombian-flag div {
+	height: 100px;
+	width: 100%;
+	float: left;
+}
+
+ .colombian-flag .yellow {
+	background-color: yellow;
+	height: 50px;
+
+ }
+
+ .colombian-flag .blue {
+ 	background-color: blue;
+
+	height: 25px;
+ }
+
+ .colombian-flag .red {
+ 	background-color: red;
+	height: 25px;
+ }
+
+.algerian-flag {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.algerian-flag div {
+	height: 200px;
+	width: 100%;
+
+}
+
+.algerian-flag .green {
+	background-color: green;
+	width: 50%;
+	float: left;
+}
+
+.algerian-flag .white  {
+	width: 50%;
+    float: left;
+ }
+
+.algerian-flag img {
+	position: absolute;
+	left:calc(50% - 100px);
+
+}
+
+
+
+
+
+ 

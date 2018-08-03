@@ -1,0 +1,106 @@
+.yellow {
+color: yellow;
+font-size: 20px;
+}
+
+.blue {
+	color: blue;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.red {
+	color: red;
+	font-size: 18px;
+	background-color: black;
+}
+
+.purple {
+	color: purple;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+
+.blue2 {
+	color: blue;
+	font-size: 15px;
+}
+
+.spam {
+	font-size: 15px;
+	font-weight: bold;
+	color: red;
+}
+
+
+
+h1 {
+	color: red;
+	font-style: normal;
+	font-size: 10px;
+}
+
+
+h2 {
+	color: yellow;
+	font-style: oblique;
+	font-size: 20px;
+}
+
+
+
+h3 {
+	color: blue;
+	font-style: italic;
+	font-size: 30px;
+}
+
+
+
+h4 {
+	color: black;
+	font-style: normal;
+	font-size: 40px;
+}
+
+
+
+h5 {
+	color: purple;
+	font-style: oblique;
+	font-size: 50px;
+}
+
+
+h6 {
+	color: green;
+	font-style: italic;
+	font-size: 60px;
+}
+
+a:hover { 
+    color: green;
+    font-size: 20px;
+}
+
+button {
+	outline: none;
+	border-style: 1px solid #cdbfe3;
+	padding: 15px 30px 15px 30px;
+	background-color: #6f5499;
+	outline: none;
+}
+
+button:hover {
+	background-color: white;
+	color: #563d7c;
+	border-style: white; 
+}
+
+
+img {
+	float: left;
+	width: 25%;
+}
