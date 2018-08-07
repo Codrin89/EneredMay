@@ -1,0 +1,95 @@
+console.log('');
+alert('');
+
+Tipologii variabile:
+boolean = true/false
+string = text. neaparat cu ghilimele;
+number = trebuie scris fara ghilimele;
+array: colectie de date
+ex: var array ['a', 'b', 'c'. 'd'];
+arrays sunt accesate utilizand un numar. ex array[4]
+numarul reprezinta pozitia si pleaca intotdeauna de la 0.
+
+object: cu object nu trebuie sa stii pozitia. i se va calcula in automat pozitia.
+ex: value assigned by ":"
+
+var object = {
+	objectString: "something",
+	objectNumber: 1234,
+	objectBoolean: true,
+	objectArray: [213, 'abc', "def"]
+}
+
+console.log(object["objectArray"]);
+console.log(object.objectNumber);
+
+
+x= variabila undefined
+
+
+Operatori:
+
+var z = 2;
+var x ='2'
+console.log(z==x);
+pentru aceasta comparatie rezulta true deoarece cauta valoarea din string;
+
+===type comparisition
+
+!= not equal;
+!== compara si tipologia variabilei;
+
+
+Logical:
+
+|| suficient sa fie una true >>> rezultat setat ca si true;
+&& trebuie sa fie ambele true >>> rezultat setat ca si true;
+
+
+Functions:
+
+ca sa putem utiliza parametru trebuie sa folosim  doar asa:
+
+
+function myFunction2(parameter1){
+	console.log(parameter1);
+}
+
+
+
+console.log('20' / 5); >>>>> transforma 20 in numar. daca ar fi string nu ar merge. la fel este si pentru /, *, % 
+
+
+
+Constructori
+daca (expresie logica) {
+//expresie adevarta}
+altfel {
+//expresie falsa}
+
+
+if = rezultatul va fi mereu true sau false;
+else
+if else
+while (cat timp)= contructor repetitiv. Nu se prea foloseste pentru a nu bloca executia
+
+cat timp(expresie logica) {
+//expresia true
+}
+
+for se foloseste de obicei pentru array
+
+
+
+window, document = nu se pot folosi ca si nume de variabile
+ 
+getElementsbyClassName = e un array
+
+console.log(contentByClass[1].innerHTML) = apare doar continutul din div
+
+contentByClass[1].style.color = "red" = asa se aplica css-ul;
+
+inner e getter
+
+inputByClass[0].value = "Something"; = setter;
+
