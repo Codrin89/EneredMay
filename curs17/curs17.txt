@@ -1,0 +1,8 @@
+document.getid('') >>> ca in css doar ca avem nevoie si de functie
+.innerHTML(); >>> valoarea din pagina (GET)
+.innerHTML = 'some'; (SET) si modifica valoarea;
+
+
+slice = ia in considerare primul parametru si ultimul este exclus;
+
+la split rezultatul este mereu un array
