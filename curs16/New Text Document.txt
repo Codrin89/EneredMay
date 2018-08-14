@@ -1,0 +1,2 @@
+.innerHTML(); --> GET (valoarea din pagina);
+.innerHTML = 'something'; --> SET (modifica valoarea);
