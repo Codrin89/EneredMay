@@ -177,6 +177,27 @@ function exe12(){
 // exe12();
 
 
+function exe13(){
+    var p = prompt("What is the principal amount?");
+    var r = prompt("What is the rate?");
+    var t = prompt("What is the number of years?");
+    var n = prompt("What is the number of times the interest is compounded per year? ");
+    document.getElementById("exe13_1").innerHTML = p;
+    document.getElementById("exe13_2").innerHTML = r;
+    document.getElementById("exe13_3").innerHTML = t;
+    document.getElementById("exe13_4").innerHTML = n;
+    document.getElementById("exe13_5").innerHTML = "$" + p + " invested at " + r + " for " + t + " years " + "compounded " + n +  " times per year is $" + (p * ( Math.pow((1 + r/t), (t*n)) )).toFixed(2) + ".";
+
+
+
+
+}
+
+// exe13();
+
+
+
+
 function exe14(){
      var amount = document.getElementById("exe14_in1").value;
      var state = document.getElementById("exe14_in2").value;
@@ -202,6 +223,52 @@ function exe14(){
 }
 
 // exe14();
+
+
+
+function exe15(){
+    var pass = document.getElementById("pass").value;
+    if(pass === "costi"){
+        document.getElementById("p2").innerHTML = "Welcome!"; 
+        document.getElementsByClassName("exe15_2")[0].style.display="block";
+        document.getElementsByClassName("exe15_1")[0].style.display="none";
+    }else{
+        document.getElementById("p1").innerHTML = "I don't know you!"; 
+        document.getElementsByClassName("exe15_1")[0].style.display="block";
+        document.getElementsByClassName("exe15_2")[0].style.display="none";
+
+    }
+} 
+
+
+function exe16(){
+    var age = document.getElementById("age").value;
+    if(age !== "" && parseInt(age) && age >= 18){
+        document.getElementById("p16_1").innerHTML = "You are old enough to legally drive.";
+        document.getElementsByClassName("exe16_1")[0].style.display="block";
+        document.getElementsByClassName("exe16_2")[0].style.display="none";
+    }else{
+        document.getElementById("p16_2").innerHTML = "You are not old enough to legally drive.";
+        document.getElementsByClassName("exe16_2")[0].style.display="block";
+        document.getElementsByClassName("exe16_1")[0].style.display="none";
+    }
+}  
+
+
+function exe17(){
+       var a = prompt("What is the total alcohol consumed?");
+       var w = prompt("What is your body weight?");
+       var r = prompt("What is the alcohol distribution ratio?");
+       var h = prompt("What is the number of hours since the last drink.");
+       document.getElementById("exe18_1").innerHTML =  ((a × 5.14 / w × r) − 0.015 × h);
+       var t = ((a × 5.14 / w × r) − 0.015 × h);
+       if (t>0.08 ) {
+
+       }
+
+} 
+
+exe17();
 
 
 
@@ -232,4 +299,4 @@ function verifyConversionType(){
 
 }
 
-exe18();
+// exe18();
