@@ -77,7 +77,9 @@ function exe10() {
 		console log(sum);
 		i++;
 	}
-
+	console log(sum);
+	console log (sum +0.055);
+	console log(sum)
 }
 exe10();
 
