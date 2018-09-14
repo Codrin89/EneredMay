@@ -146,22 +146,57 @@ function exe16(){
 		document.getElementById('exe16_2').innerHTML = "You are old enough to legally drive.";
 	}
 }
-exe16();
-
-function exe17(){
-	var weight = document.getElementById('exe17_1').value;
-	var gender = document.getElementById('exe17_2').value;
-	var drinks = document.getElementById('exe17_3').value;
-	var h = document.getElementById('exe13_n').value;
-	document.getElementById('exe13_1').innerHTML = ammount;
-	document.getElementById('exe13_2').innerHTML = years;
-	document.getElementById('exe13_3').innerHTML = rate;
-	document.getElementById('exe13_4').innerHTML = periods;
-	var a = ammount * Math.pow((1 + (rate / periods)), (periods * years));
-	document.getElementById('result_amount').innerHTML = a.toFixed(2);
-}
+//exe16();
 
 function exe19() {
 	var w = document.getElementById('exe19_in1').value;
 	var h = document.getElementById('exe19_in2').value;
+	var z = document.getElementById('result').innerHTML = (w / (h * h)) * 703;
+	if ( 18.5 < z, z < 25 ) {
+		document.getElementById('result').innerHTML = z.toFixed(2) + '<br> You are within the ideal weight range.';
+	}else{
+		document.getElementById('result').innerHTML = z.toFixed(2) + '<br> You are overweight. You should see your doctor.';
+	}
 }
+
+function exe20(){
+	var a = prompt('What is the order amount?');
+	var b = prompt('What state do you live in?');
+	var tax = 0;
+	if(b == "Wisconsin") {
+		var c = prompt('What is your county?');
+		if(c == "Eau Claire") {
+			tax = 0.005;
+		}
+		if(c == "Dunn") {
+			tax = 0.004;
+		}
+	}
+	if(b == "Illinois") {
+		tax = 0.08;
+	}
+	if(tax == 0) {
+		document.getElementById("tax_sum").style.display = "none";
+	}
+
+	document.getElementById('exe20_1').innerHTML = a;
+	document.getElementById('exe20_2').innerHTML = b;
+	document.getElementById('exe20_3').innerHTML = a * tax;
+	document.getElementById('exe20_4').innerHTML = parseInt(a) + (a * tax);
+
+}
+//exe20();
+
+function exe21() {
+	var array = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	z = 0;
+	while( z === 0 ) {
+		var z = prompt('Please enter the number of the month: ');
+		if (0 < z && z <= 12) {
+			document.getElementById('month').innerHTML =  array[z - 1];
+		} else {
+			z = 0;
+		}
+	} 
+}
+//exe21();
