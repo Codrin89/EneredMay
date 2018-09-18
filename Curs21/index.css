@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.form-container {
+	width: 500px;
+    text-align: center;
+    margin: 50px auto;
+}
+.input-container {
+	margin: 15px 0;
+}
+.input-container input {
+	border: none;
+	font-size: 16px;
+	outline: none;
+	border-bottom: 1px solid grey;
+}
+.input-container input:focus {
+	border-color: blue;
+}
+.input-container .input-error {
+	color: red;
+	border-color: red;
+}
