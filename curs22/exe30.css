@@ -1,0 +1,11 @@
+.box {
+	border :1px solid #000;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	float: left;
+
+}
+br {
+	clear:both;
+}
