@@ -1,0 +1,32 @@
+[
+	{
+		"firstName" : "John",
+		"lastName" : "McCain",
+		"salary" : "58500"
+	},
+	{
+		"firstName" : "Vasile",
+		"lastName" : "McCain",
+		"salary" : "68500"
+	},
+	{
+		"firstName" : "Ionel",
+		"lastName" : "McCain",
+		"salary" : "78500"
+	},
+	{
+		"firstName" : "Gica",
+		"lastName" : "McCain",
+		"salary" : "50500"
+	},
+	{
+		"firstName" : "Ileana",
+		"lastName" : "McCain",
+		"salary" : "58000"
+	},
+	{
+		"firstName" : "Vladut",
+		"lastName" : "McCain",
+		"salary" : "500000"
+	}
+]
