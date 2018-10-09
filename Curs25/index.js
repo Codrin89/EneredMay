@@ -25,3 +25,4 @@ $('p').css('background-color' , 'blue');
 
 $('p').html('<h4>SOmething</h4>');
 $('p.paragraph').text('<h4>Something</h4>');
+
