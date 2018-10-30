@@ -1,0 +1,12 @@
+.one {
+	width: 100px;
+}
+.two {
+	display: inline-block;
+}
+.three {
+	float: left;
+	background :blue;
+	overflow: auto;
+	max-height: 100px;
+}
