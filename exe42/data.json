@@ -1,0 +1,34 @@
+[
+     {
+     	"firstName": "May",
+     	"lastName": "Lin",
+     	"salary": "55000"
+     },
+
+     {
+     	"firstName": "Vasile",
+     	"lastName": "Ion",
+     	"salary": "55045"
+     },
+
+
+     {
+     	"firstName": "Andreo",
+     	"lastName": "Mitica",
+     	"salary": "59000"
+     },
+
+
+     {
+     	"firstName": "Alin",
+     	"lastName": "Cosmin",
+     	"salary": "55670"
+     },
+
+
+     {
+     	"firstName": "Mircea",
+     	"lastName": "Johnson",
+     	"salary": "46095"
+     }
+]

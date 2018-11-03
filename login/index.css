@@ -1,0 +1,38 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-image{
+	background-image: url("https://i.pinimg.com/originals/48/8a/6b/488a6bd89843be2c1bfbedd14bbf1f0a.jpg");
+	width: 100%;
+	height: 788px;
+	background-size:cover;
+	background-repeat: no-repeat; 
+	position: relative;
+	background-position: center;
+
+}
+
+.little-box{
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	background-color: purple;
+	border-radius: 10px;
+	opacity: 0.4;
+
+}
+
+
+h2{
+	text-align: center;
+	color: white;
+	opacity: 1;
+}
+
+input{
+	border-left: none;
+}
