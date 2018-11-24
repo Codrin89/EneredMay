@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+/*Utils*/
+
+.displayNone {
+	display: none !important;
+}
+.text-white {
+	color: #fff;
+}
