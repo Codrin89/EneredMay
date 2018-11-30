@@ -26,10 +26,10 @@ document.getElementById("register").addEventListener('click', function() {
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function() {
 		if(xhr.status === 200 && xhr.readyState === 4) {
-			console.log(xhr.responseText);
+			console.log(JSON.PARSE(xhr.responseText).result);
 		}
 	}
 
-	// xhr.open("POST", 'http://localhost/github_enered/EneredMay/api/register', true);
-	// xhr.send(JSON.stringify(data));
+	xhr.open("POST", 'http://localhost/github_project/EneredMay/api/register', true);
+	xhr.send(JSON.stringify(data));
 });
