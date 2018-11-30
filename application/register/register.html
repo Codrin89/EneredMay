@@ -1,33 +1,76 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Register</title>
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="register.css">
+    <link rel="stylesheet" type="text/css" href="register.css">
+    <link rel="stylesheet" type="text/css" href="../assets/style.css">
 
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
+
 <body>
 
-	<div class="register-form">
-		<div class="form-group">
-			<input type="text" class="form-control" placeholder="Username" id="username">
-		</div>
-		<div class="form-group">
-			<input type="text" class="form-control" placeholder="Email" id="email">
-		</div>
-		<div class="form-group">
-			<input type="password" class="form-control" placeholder="Password" id="password">
-		</div>
-		<div class="form-group">
-			<input type="password" class="form-control" placeholder="Retype password" id="password2">
-		</div>
-		<button id="register">Register</button>
-	</div>
 
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="register.js"></script>
+    <div class="wrapper">
+
+        <div class="register">
+            <div class="register_border">
+                <div class="left_side">
+                    <div class="register-txt">
+                        <h4>Brief History About Us</h4>
+                        <h6>Vivin Du Dolores</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ipsum dolor sit amet, consectetur adipisicing elit. Temporibus necessitatibus incidunt aut!</p>
+                        <h4 class="text-white">Sign Up With</h4>
+                        <ul class="signup_list">
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fab fa-linkedin-in"></i></li>
+                            <li><i class="fas fa-rss"></i></li>
+                        </ul>
+                        <div class="have_account">Already have an account <a href="http://localhost/web9_/application/signin/signin.html"><span style="color: red">Sign in</span></a></div>
+                    </div>
+
+
+                </div>
+
+                <div class="right_side">
+                    <div class="register-form">
+                        <h4 class="customer_title text-white">NEW CUSTUMER?</h4>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Username" id="username">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password" id="password">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Retype password" id="password2">
+                        </div>
+
+                        <div class="buttons">
+                            <button class="btnn text-white" id="register">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="register.js"></script>
+
 </body>
+
 </html>

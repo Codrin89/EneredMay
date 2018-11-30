@@ -1,0 +1,92 @@
+.wrapper {
+    height: 100vh;
+}
+
+.navbar {
+    background: black;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation_list li {
+    display: inline;
+    margin: 0 4vw;
+    position: relative;
+    transition-duration: 0.5s;
+}
+
+.navigation_list li a {
+    color: white;
+}
+
+.navigation_list li a:hover {
+    color: gray;
+}
+
+.navigation_list li a:hover .shop_submenu {
+    opacity: 1;
+}
+
+.navigation_list i {
+    font-size: 15px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.shop_submenu li a,
+.shop_submenu_hide li a {
+    color: black;
+}
+
+.shop_submenu {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    min-width: 10vw;
+    left: -8vw;
+    transition: all .5s linear;
+    opacity: 1;
+}
+
+.shop_submenu_hide {
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    min-width: 10vw;
+    left: -8vw;
+    transition: all .5s linear;
+    top: 60px;
+    opacity: 0;
+}
+
+
+.shop_submenu li,
+.shop_submenu_hide li {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.shop_submenu li:last-child {
+    border-bottom: none;
+}
+
+.shop_submenu_hide li:last-child {
+    border-bottom: none;
+}
+
+.shop_submenu li:hover {
+    color: gray;
+    text-decoration: underline;
+}

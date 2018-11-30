@@ -1,15 +1,29 @@
 * {
-	margin: 0;
-	padding: 0;
-	font-family: Helvetica;
-	font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 14px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
 
 /*Utils*/
 
 .displayNone {
-	display: none !important;
+    display: none !important;
 }
+
 .text-white {
-	color: #fff;
+    color: #fff;
 }

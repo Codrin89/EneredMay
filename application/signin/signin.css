@@ -10,18 +10,33 @@
     align-items: center;
 }
 
-.register-txt {
+.content_left {
     height: 100%;
     text-align: center;
-    margin-right: 20px;
 }
 
-.register-txt * {
-    color: darkgray;
+.hot {
+    width: 40%;
+    z-index: 99;
 }
 
-p {
-    padding: 10px 0;
+.left_title {
+    transform: rotate(-25deg);
+    font-size: 28px;
+    position: absolute;
+    left: 25%;
+    top: 17%;
+}
+
+.old_phone img {
+    width: 60%;
+    left: 10%;
+}
+
+.price {
+    color: deeppink;
+    font-size: 35px;
+    display: inline-block;
 }
 
 .customer_title {
@@ -43,6 +58,7 @@ p {
 
 .left_side {
     border-right: 0;
+    position: relative;
 }
 
 .form-group {
@@ -57,10 +73,6 @@ p {
     border-radius: 0;
     border-bottom: 1px solid lightgray;
     color: white
-}
-
-.paragraph {
-    padding: 0;
 }
 
 
@@ -92,36 +104,9 @@ p {
     border-radius: 25px;
 }
 
-.signup_list {
-    margin-top: 10%;
-}
 
-.signup_list li {
-    display: inline-block;
-    border: 1px solid white;
-    width: 50px;
-    margin: 3px;
-    transition: all 1.5s ease;
-}
-
-.signup_list li i {
-    transition: all .5s ease;
-}
-
-.signup_list li:hover {
-    background: red;
-}
-
-.signup_list li:hover i {
-    transform: rotate(360deg);
-}
-
-.signup_list li i {
-    font-size: 25px;
-    padding: 20%;
-}
-
-.have_account {
-    margin-top: 8px;
-    font-size: 12px;
+.register_account {
+    margin-top: 10px;
+    font-size: 13px;
+    color: lightgray;
 }

@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(rgba(3.9, 2.7, 8.6, .8), rgba(3.9, 2.7, 8.6, .8)), url("https://image.freepik.com/free-vector/electronic-devices-background_23-2147491686.jpg") no-repeat;
+    background-size: cover;
+}
+
+.register-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 20px;
+    background: white;
+    width: 40vh
+}
+
+input,
+.btn-default {
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.btn {
+    margin: 10px;
+}
