@@ -41,30 +41,22 @@ $app->post(
     $json = $app->request->getBody();
     $resultJs = json_decode($json, true);
 
-    $query1 = "SELECT `username`,`email` FROM `users` WHERE `username`='".$resultJs['username']."' OR `email`='".$resultJs['email']."'";
+    $query1 = "SELECT * FROM `users` WHERE `username`='".$resultJs['username']."' OR `email`='".$resultJs['email']."'";
 
     $result1 = mysqli_query($dbh, $query1);
-    $info = mysqli_fetch_assoc($result1);
 
-    if($result1){
-      if($info["username"]==$resultJs['username']){
-        echo "Existing username";
-        return;
-      }
-      if($info["email"]==$resultJs['email']){
-        echo "Existing email";
-        return;
-      }
-    }else{
-      $query = "INSERT INTO `users`( `username`, `email`, `password`) VALUES ('".$resultJs['username']."','".$resultJs['email']."','".$resultJs['password']."')";
+    if($result1===NULL){
+      $query = "INSERT INTO `users` (`username`, `email`, `password`) VALUES ('".$resultJs['username']."','".$resultJs['email']."','".$resultJs['password']."')";
 
       $result = mysqli_query($dbh, $query);
 
       if($result != NULL) {
-        echo "Successfully registered";
+        echo "{result : true}";
       } else {
-        echo "Try again!";
+        echo "{result : false}";
       }
+    }else{
+      echo "{result : false}";
     }
   }
 );
@@ -74,13 +66,13 @@ $app->post(
     function () use ($app, $dbh) {
         $json = $app->request->getBody();
         $resultJs = json_decode($json, true);
-        $query = "SELECT * FROM `users` WHERE `password`='".$resultJs['password']."' AND (`username`='".$resultJs['username']."' OR `email`='".$resultJs['email']."')";
+        $query = "SELECT * FROM `users` WHERE `password`='".$resultJs['password']."' AND (`username`='".$resultJs['username']."' OR `email`='".$resultJs['username']."')";
         $result = mysqli_query($dbh, $query);
         $info = mysqli_fetch_assoc($result);
         var_dump($info);
         if($info != NULL) {
-          // $token=generateRandomString();
-          $token="AAABBB";
+          $token=generateRandomString();
+          // $token="AAABBB";
           $queryUpdate = "UPDATE `users` SET `loginToken`='".$token."'  WHERE (`username`='".$resultJs['username']."' OR `email`='".$resultJs['username']."')";
           $info = mysqli_query($dbh, $queryUpdate);
           // $info = mysqli_fetch_assoc($result);
@@ -91,7 +83,6 @@ $app->post(
               echo "Try again!";
             }
 
-            echo "Successfully logged in";
         } else {
             echo "Try again!";
         }

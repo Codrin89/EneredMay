@@ -1,14 +1,28 @@
+var inputs = document.getElementsByClassName("form-control");
+
+var clearError = function() {
+  for (var i = 0; i < 4; i++) {
+    inputs[i].classList.remove('error-border');
+  }
+  document.getElementById('error-msg').innerHTML = "";
+};
+
+for (var i = 0; i < inputs.length; i++) {
+  inputs[i].addEventListener('click', clearError, false);
+}
+
 document.getElementById("register").addEventListener('click', function() {
 
   //validate fields
-
-
   if (document.getElementById('username').value.trim().length === 0) {
     //set error to username
-    // document.getElementById('username').parentElement.classList += ' has-error';
-    document.getElementById('username').classList.add('error-border');
+    document.getElementById('username').parentElement.classList += ' has-error';
+    //else -
+    // document.getElementById('username').classList.add('error-border');
     document.getElementById('error-msg').innerHTML = "Invalid username";
-    return;
+
+  }else{
+    document.getElementById('username').parentElement.classList.split('has-error')[0];
   }
 
   if (document.getElementById('email').value.trim().length === 0) {
@@ -49,19 +63,6 @@ document.getElementById("register").addEventListener('click', function() {
     }
   }
 
-  xhr.open("POST", "http://localhost/git/EneredMay/api/register", true);
+  xhr.open("POST", "http://localhost/github_project/EneredMay/api/register", true);
   xhr.send(JSON.stringify(data));
 });
-
-var inputs = document.getElementsByClassName("form-control");
-
-var clearError = function() {
-  for (var i = 0; i < 4; i++) {
-    inputs[i].classList.remove('error-border');
-  }
-  document.getElementById('error-msg').innerHTML = "";
-};
-
-for (var i = 0; i < inputs.length; i++) {
-  inputs[i].addEventListener('click', clearError, false);
-}
