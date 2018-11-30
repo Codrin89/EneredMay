@@ -13,6 +13,6 @@ document.getElementById("login").addEventListener('click', function () {
         }
     }
 
-    xhr.open("POST", 'http://localhost/apii/login', true);
+    xhr.open("POST", 'http://localhost/git/EneredMay/api/login', true);
     xhr.send(JSON.stringify(data));
 });

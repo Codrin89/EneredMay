@@ -38,12 +38,12 @@ $app->post('/login', function () use ($app, $dbh) {
     $json = $app->request->getBody();
     $result = json_decode($json, true);
     $query = "SELECT * FROM `users` WHERE `password`='".$result['password']."' AND (`username`='".$result['username']."' OR `email`='".$result['username']."')";
-    $result = mysqli_query($dbh, $query); 
-    $info = mysqli_fetch_assoc($result);
+    $result1 = mysqli_query($dbh, $query); 
+    $info = mysqli_fetch_assoc($result1);
     if($info != NULL) {
-        $token = generateRandomString();
+        $token = generateRandomString();   
         $queryUpdate = "UPDATE `users` SET `loginToken`='".$token."' WHERE (`username`='".$result['username']."' OR `email`='".$result['username']."')";
-        $result = mysqli_query($dbh, $query);
+        $result = mysqli_query($dbh, $queryUpdate);
         if($result != NULL) {
             echo "{token:".$token."}";
         } else {
@@ -52,7 +52,6 @@ $app->post('/login', function () use ($app, $dbh) {
     } else {
         echo "Try again!";
     }
-
 });
 
 //CREATE USER 
@@ -60,8 +59,9 @@ $app->post('/register', function () use ($app, $dbh) {
     $json = $app->request->getBody();
     $result = json_decode($json, true);
     $query = "SELECT * FROM `users` WHERE `username`='".$result['username']."' OR  `email`='".$result['email']."'";
-    $resultQuery = mysqli_query($dbh, $query); 
-    if($resultQuery) {
+    $resultQuery = mysqli_query($dbh, $query);
+    $infoQuery =  mysqli_fetch_assoc($resultQuery);
+    if($infoQuery == NULL) {
         $queryUpdate = "INSERT INTO `users` (`username`, `email`, `password`) VALUES ('".$result['username']."', '".$result['email']."', '".$result['password']."')";
         $result = mysqli_query($dbh, $queryUpdate);
         if($result != NULL) {

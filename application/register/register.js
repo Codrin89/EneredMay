@@ -6,12 +6,19 @@ document.getElementById("register").addEventListener('click', function () {
     if (document.getElementById('username').value.trim().length === 0) {
         //set error to username
         document.getElementById('username').parentElement.classList += ' has-error';
+    } else {
+        document.getElementById('username').parentElement.classList.split(' has-error')[0];
     }
+
+
+
     if (document.getElementById('email').value.trim().length === 0) {
         //set error to email
+        document.getElementById('username').parentElement.classList += ' has-error';
     }
     if (document.getElementById('password').value.trim().length === 0) {
         //set error to password
+
     }
     if (document.getElementById('password2').value.trim().length === 0) {
         //set error to password2
@@ -31,6 +38,6 @@ document.getElementById("register").addEventListener('click', function () {
         }
     }
 
-    xhr.open("POST", 'http://localhost/apii/register', true);
+    xhr.open("POST", 'http://localhost/git/EneredMay/api/register', true);
     xhr.send(JSON.stringify(data));
 });
