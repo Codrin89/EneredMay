@@ -55,17 +55,25 @@ $app->post('/login', function () use ($app, $dbh) {
 
 });
 
-// $app->get('/profile', function () use ($app, $dbh) {
-//     $json = $app->request->getBody();
-//     $result = json_decode($json, true);
-//     // validate user
+//CREATE USER 
+$app->post('/register', function () use ($app, $dbh) {
+    $json = $app->request->getBody();
+    $result = json_decode($json, true);
+    $query = "SELECT * FROM `users` WHERE `username`='".$result['username']."' OR  `email`='".$result['email']."'";
+    $resultQuery = mysqli_query($dbh, $query); 
+    if($resultQuery) {
+        $queryUpdate = "INSERT INTO `users` (`username`, `email`, `password`) VALUES ('".$result['username']."', '".$result['email']."', '".$result['password']."')";
+        $result = mysqli_query($dbh, $queryUpdate);
+        if($result != NULL) {
+            echo "{result : true}";
+        } else {
+            echo "{result : false}";
+        }
+    } else {
+        echo "{result : false}";
+    }
 
-//     // do something with data
-//     // "SELECT * FROM `user_profile` WHERE `password`='".$result['password']."' AND (`username`='".$result['username']."' OR `email`='".$result['username']."')";
-
-//     $result = mysqli_query($dbh, $query); 
-//     $info = mysqli_fetch_assoc($result);
-// });
+});
 // CREATE
 $app->post('/profile', function () use ($app, $dbh) {
     $json = $app->request->getBody();
