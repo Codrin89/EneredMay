@@ -23,12 +23,12 @@
 	background-color: white;
 	border-radius: 10px;
 	opacity: 0.8;
-
+	padding: 30px 50px;
 }
 
 #register{
 	position:absolute;
-	left: 40%;
+	left: 20%;
 	margin-top: 30px;
 	background-color:white;
 	border-radius: 5px;
@@ -36,6 +36,17 @@
 	padding: 5px 10px;
 	opacity:0.8;
 
+}
+
+#signIn{
+	position:absolute;
+	left: 60%;
+	margin-top: 30px;
+	background-color:white;
+	border-radius: 5px;
+	color: black;
+	padding: 5px 10px;
+	opacity:0.8;
 }
 
 .top{
@@ -54,11 +65,35 @@ input[type=password]{
 	border-bottom: 1px solid black;
 }
 
-.form-control{
-	width: 80%;
-	text-align: center;
+.form-group{
+	
+	position: relative;
 	
 	
 }
 
+.input-error{
+	color: red;
+}
 
+.error{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e6005c;
+    transform: translateX(110%);
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.has-error .error {
+	visibility: visible;
+	animation: mymove 5s forwards;
+}
+
+
+@keyframes mymove {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
