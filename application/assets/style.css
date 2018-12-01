@@ -13,3 +13,9 @@
 .text-white {
 	color: #fff;
 }
+.background-register {
+	background: url('img/background.jpeg') no-repeat;
+}
+.noPadding {
+	padding: 0;
+}
