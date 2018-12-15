@@ -19,3 +19,8 @@
 .noPadding {
 	padding: 0;
 }
+.logoBG {
+	background: url('img/Logo.jpg') no-repeat;
+	background-size: contain;
+	margin: 10px 10px;
+}

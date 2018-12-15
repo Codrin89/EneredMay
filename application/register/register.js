@@ -1,39 +1,11 @@
-// document.getElementById("register").addEventListener('click', function() {
-
-// 	//validate fields
-// 	if(!document.getElementById('password').value === document.getElementById('password2').value) {
-// 		// set error fields to password fields
-// 	}
-// 	if(document.getElementById('username').value.trim().length === 0) {
-// 		//set error to username
-// 		document.getElementById('username').parentElement.classList += ' has-error';
-// 	} else {
-
-// 	}
-// 	if(document.getElementById('email').value.trim().length === 0) {
-// 		//set error to email
-// 	}
-// 	if(document.getElementById('password').value.trim().length === 0) {
-// 		//set error to password
-// 	}
-// 	if(document.getElementById('password2').value.trim().length === 0) {
-// 		//set error to password2
-// 	}
-// 	var data = {
-// 		"username": document.getElementById('username').value,
-// 		"email": document.getElementById('email').value,
-// 		"password": document.getElementById('password').value,
-// 	}
-
-// 	var xhr = new XMLHttpRequest();
-// 	xhr.onreadystatechange = function() {
-// 		if(xhr.status === 200 && xhr.readyState === 4) {
-// 			console.log(xhr.responseText);
-// 		}
-// 	}
-// 	xhr.open("POST", 'http://localhost/Trello/EneredMay/api/register', true);
-// 	xhr.send(JSON.stringify(data));
-// });
+$(document).ready(function() {
+	var token = window.localStorage.getItem('loginToken');
+	if(token && token.length === 50) {
+		var path = window.location.href.split('Application')[0];
+		window.location.href = path + 'Application/Homepage/index.html';
+		// window.location.href = 'Application/Homepage/index.html';
+	}
+});
 
 $('#register').on('click', function() {
 
@@ -104,6 +76,55 @@ $('#register').on('click', function() {
 
 });
 
+$('#signin').on('click', function() {
+
+	// validate inputs example
+	if($('#sUsername').val().trim().length === 0) {
+		$($('#sUsername')[0].parentElement).addClass('has-error');
+	} else {
+		$($('#sUsername')[0].parentElement).removeClass('has-error');
+	}
+
+	if($('#sPassword').val().trim().length === 0) {
+		$($('#sPassword')[0].parentElement).addClass('has-error');
+	} else {
+		$($('#sPassword')[0].parentElement).removeClass('has-error');
+	}
+
+	if($('.signin-form .has-error').length > 0) {
+		return false;
+	}
+
+
+	var data = {
+		"username": $('#sUsername').val(),
+		"password": $('#sPassword').val()
+	}
+
+	$.ajax({
+	  type: "POST",
+	  url: "http://localhost/Trello/EneredMay/api/login",
+	  data: JSON.stringify(data),
+	  contentType: "application/json",
+	  success: function(response) {
+	  	const data = JSON.parse(response);
+	  	if(data.length === 50) {
+	  		window.localStorage.setItem('loginToken', data);
+	  		var path = window.location.href.split('Application')[0];
+			window.location.href = path + 'Application/Homepage/index.html';
+	  	}
+	  },
+	  error: function(error) {
+		console.log(error);
+	  }
+	});
+
+
+});
+
+
+
+// CHANGE VIEW ON SIGNIN/SIGNUP
 $('#goToSignIn').on('click', function() {
 	$('.register-form').addClass('displayNone');
 	$('.signin-form').removeClass('displayNone');

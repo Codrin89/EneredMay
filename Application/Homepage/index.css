@@ -1,0 +1,22 @@
+.pull-right {
+  list-style-type: none;
+  padding-top: 5px;
+}
+.topNav {
+  background-color:#ddf9fd;
+  height: 60px;
+}
+li {
+  display: inline;
+}
+li:hover{
+  font-style: italic;
+  color:#fff;
+  text-decoration-line: none;
+}
+button {
+  font-size: 20px;
+  margin:5px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
