@@ -16,17 +16,29 @@
 
 .register-form{
 	width: 400px;
-	height:350px;
+	height:400px;
 	position: absolute;
 	top: 170px;
 	left: calc(50% - 200px);
 	background-color: white;
 	border-radius: 10px;
 	opacity: 0.8;
-	padding: 30px 50px;
+	padding: 50px 50px;
 }
 
-#register{
+.signIn-form {
+    width: 400px;
+	height:330px;
+	position: absolute;
+	top: 170px;
+	left: calc(50% - 200px);
+	background-color: white;
+	border-radius: 10px;
+	opacity: 0.8;
+	padding: 50px 50px;
+}
+
+#register,#signin{
 	position:absolute;
 	left: 20%;
 	margin-top: 30px;
@@ -38,9 +50,9 @@
 
 }
 
-#signIn{
+#goToSignIn,#goToRegister{
 	position:absolute;
-	left: 60%;
+	left: 55%;
 	margin-top: 30px;
 	background-color:white;
 	border-radius: 5px;
@@ -96,4 +108,14 @@ input[type=password]{
 @keyframes mymove {
     from {opacity: 1;}
     to {opacity: 0;}
+}
+
+.displayNone{
+	display: none;
+}
+
+h2{
+	text-align: center;
+	padding: 10px 0px;
+	margin-top: 0;
 }

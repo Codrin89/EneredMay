@@ -50,7 +50,6 @@
 
 
 
-
 $('#register').on('click', function() {
 	var data = {
 		"username": $('#username').val(),
@@ -100,3 +99,13 @@ function validateEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
 }
+
+$('#goToRegister').on('click', function() {
+	$('.register-form').removeClass('displayNone');
+	$('.signIn-form').addClass('displayNone');
+});
+
+$('#goToSignIn').on('click', function() {
+	$('.register-form').addClass('displayNone');
+	$('.signIn-form').removeClass('displayNone');
+});
