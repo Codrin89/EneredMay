@@ -1,3 +1,17 @@
+$(document).ready(function() {
+	$.ajax({
+	  type: "GET",
+	  url: "http://localhost/Trello/EneredMay/api/products",
+	  contentType: "application/json",
+	  success: function(response) {
+	  	const data = JSON.parse(response);
+	  	createProductsCard(data);
+	  },
+	  error: function(error) {
+		console.log(error);
+	  }
+	});
+});
 $("#signout").click(function() {
 	window.localStorage.removeItem('loginToken');
 	var path = window.location.href.split('Application')[0];
@@ -17,3 +31,7 @@ $("#mycart").click(function() {
 	window.location.href = path + 'Application/mycart/mycart.html';
 	}
 });
+
+function createProductsCard() {
+	
+}

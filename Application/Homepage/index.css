@@ -1,22 +1,57 @@
+.logoBG {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
 .pull-right {
   list-style-type: none;
   padding-top: 5px;
 }
 .topNav {
-  background-color:#ddf9fd;
   height: 60px;
 }
 li {
-  display: inline;
+  display: inline-block;
 }
-li:hover{
+button:hover{
   font-style: italic;
-  color:#fff;
+  color:white;
   text-decoration-line: none;
 }
-button {
-  font-size: 20px;
-  margin:5px;
+.search{
+  padding-right:20px;
+}
+li .search { 
+  border: 0 0 1px 0;
+  text-decoration: none;
+  border-radius: 20%;
+}
+.fa-search{
+  position: relative;
+  left: -20px;
+}
+.dropdown {
+  display: inline-block;
+}
+.menu {
+  margin-top: 10px;
+}
+.menu button {
+  text-align: center;
   padding: 5px 10px;
-  border-radius: 20px;
+}
+.head {
+  height: 60px;
+}
+.dropdown-menu {
+  min-width: 20px;
+  text-align: center;
+}
+.img-carousel {
+  max-width: 600px;
+  max-height: 600px;
+  margin:0 auto;
+}
+#myCarousel {
+  position: relative;
 }
