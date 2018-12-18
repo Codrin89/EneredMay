@@ -20,7 +20,9 @@ $('.triggerExpand').on('click', function() {
 		$('.expandMenu').addClass('visibleNone');
 	}
 });
-
+$('#startPlay').on('click', function() {
+	window.location.href = window.location.href.split('application')[0] + 'application/gameMode/gameMode.html';
+});
 
 function renderFileData(data) {
 	var containerDiv = document.createElement('div');

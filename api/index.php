@@ -116,6 +116,17 @@ $app->get('/article', function () use ($app, $dbh) {
     echo json_encode($new_array);
 });
 
+$app->get('/questions', function () use ($app, $dbh) {
+    $json = $app->request->getBody();
+    // validate user
+    $query = "SELECT * FROM `questions` LIMIT 10";
+    $result = mysqli_query($dbh, $query);
+    while( $row = mysqli_fetch_assoc( $result)){
+        $new_array[$row['id']] = $row; // Inside while loop
+    }
+    echo json_encode($new_array);
+});
+
 function validateUserProfileCreation($user_id, $dbh) {
     $query = "SELECT * FROM `user_profile` WHERE `user_id`='".$user_id."'";
     $result = mysqli_query($dbh, $query);

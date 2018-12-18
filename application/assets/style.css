@@ -27,3 +27,8 @@
 	padding: 5px 10px;
 	opacity:0.8;
 }
+.coin {
+	background: url('https://cdn3.vectorstock.com/i/1000x1000/10/22/gold-coins-icon-from-game-vector-11631022.jpg') no-repeat;
+	background-position: center right;
+}
+
