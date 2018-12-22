@@ -48,7 +48,7 @@
 	// xhr.open("POST", 'http://localhost/github_project/EneredMay/api/register', true);
 	// xhr.send(JSON.stringify(data));
 
-
+alert();
 
 $('#register').on('click', function() {
 	var data = {

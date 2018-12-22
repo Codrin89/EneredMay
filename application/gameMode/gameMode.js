@@ -82,17 +82,19 @@ $(".fiftyfifty").on("click", function(){
 			correctAnswerNotToBeDeleted = correctAnswer[i];
 		}
 	}
-    var randomDeleteValue = Math.floor(Math.random() * 4);
+    
     var deleted = true;
     while(deleted) {
-    	if( $(".question:not(.displayNone) .btn:not(.displayNone)")[randomDeleteValue] != correctAnswerNotToBeDeleted && $(".question:not(.displayNone) .btn:not(.displayNone)").length > 2 ) {
-    		$($(".question:not(.displayNone) .btn:not(.displayNone)")[randomDeleteValue]).addClass('displayNone');
-    	}
     	if ( $(".question:not(.displayNone) .btn:not(.displayNone)").length < 3 ) {
     		deleted = false;
     	}
+    	
+    	var randomDeleteValue = Math.floor(Math.random() * 4);
+    	if( $(".question:not(.displayNone) .btn:not(.displayNone)")[randomDeleteValue].innerHTML != correctAnswerNotToBeDeleted && $(".question:not(.displayNone) .btn:not(.displayNone)").length > 2 ) {
+    		$($(".question:not(.displayNone) .btn:not(.displayNone)")[randomDeleteValue]).addClass('displayNone');
+    	}
+    	
     }
 });
-
 
 

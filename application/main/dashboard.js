@@ -2,7 +2,7 @@
 $(document).ready(function() {
 	$.ajax({
 	  type: "GET",
-	  url: "http://localhost/github_project/EneredMay/api/article",
+	  url: "http://localhost/github_project/EneredMay/api/facts",
 	  success: function(response) {
 	  	var data = JSON.parse(response);
 	  	var datakeys = Object.keys(data);
@@ -25,33 +25,11 @@ $('#startPlay').on('click', function() {
 });
 
 $('#register').on('click', function() {
+	console.log(window.location.href.split('application')[0] + 'application/register/register.html');
 	window.location.href = window.location.href.split('application')[0] + 'application/register/register.html';
 });
 
-function renderFileData(data) {
-	var containerDiv = document.createElement('div');
-	containerDiv.setAttribute('class', 'article');
-
-	var titleDiv= document.createElement('h3');
-	titleDiv.setAttribute('class', 'title');
-	var titleText = document.createTextNode(data.title);
-	titleDiv.appendChild(titleText);
-	containerDiv.appendChild(titleDiv);
-
-    var img = document.createElement('img');
-	img.setAttribute('class', 'img img-responsive');
-	img.setAttribute('src', data.image);
-	containerDiv.appendChild(img);
-
-
-	var textArea = document.createElement('div');
-	textArea.setAttribute('class', 'textArea');
-	var textAreatext = document.createTextNode(data.textArea);
-	textArea.appendChild(textAreatext);
-	containerDiv.appendChild(textArea);
-	
-
-
-	document.getElementById('article-container').appendChild(containerDiv);
-
+function renderFileData(data) {    
+	var div = $('<div class="curiosity"><div class="category"><h3 class="pull-left ">' + data.category + '</h3></div><div><img class=" img img-responsive" src="'+ data.image +'"></div><div class="text"><p class="curiosityText">'+ data.textArea +'</p></div><div class="icons"><div class="row col-xs-12"><div class="col-xs-3"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></div><div class="col-xs-3"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></div><div class="col-xs-3"><i class="fa fa-heart-o" aria-hidden="true"></i></div><div class="col-xs-3"><i class="fa fa-comments" aria-hidden="true"></i></div></div></div><div class="comment-section"><textarea class="comment-textarea form-control">Write your comment here...</textarea><button class="btn btn-success">Submit comment</button></div></div>');
+	$('#article-container').append(div);
 }

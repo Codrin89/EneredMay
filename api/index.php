@@ -104,11 +104,11 @@ $app->post('/profile', function () use ($app, $dbh) {
     }
 });
 
-// GET ARTICLE
-$app->get('/article', function () use ($app, $dbh) {
+// GET FACTS
+$app->get('/facts', function () use ($app, $dbh) {
     $json = $app->request->getBody();
     // validate user
-    $query = "SELECT * FROM `article` LIMIT 20";
+    $query = "SELECT * FROM `facts` ORDER BY `id` DESC LIMIT 20";
     $result = mysqli_query($dbh, $query);
     while( $row = mysqli_fetch_assoc( $result)){
         $new_array[$row['id']] = $row; // Inside while loop

@@ -1,11 +1,11 @@
 @media (min-width: 768px) {
 	.container-small {
-		width: 600px;
+		width: 500px;
 	}
 }
 @media (min-width: 992px) {
 	.container-small {
-		width: 800px;
+		width: 700px;
 	}
 }
 .textAreaCuriosity {
@@ -43,7 +43,7 @@
 	border: 3px solid white;
 	margin-top: 7px;
 	outline: none;
-	background-color: #1c2030;
+	background-color: #008CBA;
 	color: white;
 }
 
@@ -79,7 +79,7 @@
 	border-radius: 5px;
 	color:white;
 	padding: 5px 10px;
-	border: 1px solid white;
+	border: 2px solid white;
 	outline: none;
 	margin-right: 23px;
 	cursor: pointer;
@@ -109,4 +109,47 @@ a, a:hover{
 
 .list-group-item{
 	background-color: #1c2030; 
+}
+
+
+
+
+.curiosityText{
+   padding: 20px 50px;
+   color: white;
+   font-size: 20px;
+	
+}
+
+.text{
+	background-color: #242b3f;
+	height: 100px;
+
+}
+
+.icons{
+	height: 30px;
+	background-color: #242b3f;
+	border-top: 1px solid grey;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	cursor:pointer;
+}
+.img{
+	width: 100%;
+}
+.category{
+	color: black;
+	font-size: 25px;
+	padding-bottom: 0px;
+}
+.curiosity{
+	padding-bottom: 50px;
+	border-bottom: 2px solid grey;
+}
+.comment-textarea {
+	resize: none;
+	width: 100%;
+	margin-top: 10px;
 }
