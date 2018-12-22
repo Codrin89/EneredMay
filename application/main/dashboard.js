@@ -24,6 +24,10 @@ $('#startPlay').on('click', function() {
 	window.location.href = window.location.href.split('application')[0] + 'application/gameMode/gameMode.html';
 });
 
+$('#register').on('click', function() {
+	window.location.href = window.location.href.split('application')[0] + 'application/register/register.html';
+});
+
 function renderFileData(data) {
 	var containerDiv = document.createElement('div');
 	containerDiv.setAttribute('class', 'article');

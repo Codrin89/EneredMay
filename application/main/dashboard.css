@@ -15,7 +15,7 @@
 }
 
 .container-fluid{
-    height:50px;
+    height:60px;
 }
 
  .fa-user-circle-o{
@@ -33,5 +33,80 @@
 
 
 .navBarColor{
-	background-color: red;
+	background-color: #242b3f;
+	position: relative;
+}
+
+#startPlay{
+	border-radius: 50%;
+	padding: 10px;
+	border: 3px solid white;
+	margin-top: 7px;
+	outline: none;
+	background-color: #1c2030;
+	color: white;
+}
+
+.text-center{
+	width: 50px;
+	position: absolute;
+	left: calc(50% - 25px);
+}
+
+.logo{
+	width: 20%;
+	color: white;
+	font-weight: bold;
+	margin-top:20px;
+	font-size: 28px;
+	padding-left: 30px;
+	cursor: pointer;
+
+}
+
+.triggerExpand{
+	width: 30px;
+	margin-top: 8px;
+	position: absolute;
+	right:calc(13% - 15px);
+	cursor: pointer;
+
+}
+
+.Register{	
+	margin-top: 14px;
+	background-color:#242b40;
+	border-radius: 5px;
+	color:white;
+	padding: 5px 10px;
+	border: 1px solid white;
+	outline: none;
+	margin-right: 23px;
+	cursor: pointer;
+	
+
+}
+
+
+a, a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.fa-caret-down{
+	font-size: 20px !important;
+	padding-left: 5px;
+	position: absolute;
+	bottom: 5px;
+}	
+
+.list-group{
+	position: absolute;
+	top: 59px;
+	right: 110px;
+	background-color: red !important;
+}
+
+.list-group-item{
+	background-color: #1c2030; 
 }
