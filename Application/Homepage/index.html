@@ -20,21 +20,30 @@
 		</ul>
 	</nav>
 	<header class="head container-fluid noPadding blue-2 col-xs-12">
-		<div class="menu col-xs-12 col-sm-12 col-md-4 col-lg-4">
+		<div class="menu col-xs-12">
 			<button class="btn" id="homepage">Homepage</button>
 			<div class="dropdown">
-  			<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Categories<span class="caret"></span>
-  			</button>
- 			 <ul class="dropdown-menu">
-    			<li><a href="#">Men</a></li>
-			    <li><a href="#">Women</a></li>
-			    <li><a href="#">Kids</a></li>
-  			</ul>
+	  			<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Categories<span class="caret"></span></button>
+	 			<ul class="dropdown-menu">
+	    			<li><a href="#">Men</a></li>
+				    <li><a href="#">Women</a></li>
+				    <li><a href="#">Kids</a></li>
+	  			</ul>
 			</div>
 			<button class="btn" id="discount">Special offers</button>
+			</button>
+			<div class="dropdown">
+	  			<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Categories<span class="caret"></span></button>
+	 			<ul class="dropdown-menu currency pull-right">
+	    			<li><a href="#">US Dollar</a></li>
+				    <li><a href="#">Euro</a></li>
+				    <li><a href="#">RON</a></li>
+	  			</ul>
+			</div>
+ 			 
 		</div>
 	</header>
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div id="myCarousel" class="carousel slide col-xs-12" data-ride="carousel">
 	  <ol class="carousel-indicators">
 	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 	    <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -65,6 +74,28 @@
 	  </a>
 	</div>
 
+	<div class="products-container">
+		<div class="product displayNone col-xs-12 col-sm-6 col-md-4">
+			<h4></h4>
+			<img class="img-responsive" src=""/>
+			<p>Stock: <span></span></p>
+			<p>Price: <span></span></p>
+			<p>Size: <span></span></p>
+		</div>
+	</div>
+	<footer class="bottom col-xs-12 blue-4">
+		<div class="about col-xs-12 col-sm-6">
+			<p>Contact</p>
+		</div>
+		<div class="socialmedia col-xs-12 col-sm-6">
+		<a class="btn btn-block btn-social btn-facebook">
+    	<i class="fab fa-facebook-square"></i>Like us on Facebook
+  		</a>
+  		<a class="btn btn-block btn-social btn-twitter">
+    	<i class="fab fa-twitter-square"></i> Follow us on Twitter
+  		</a>
+		</div>
+	</footer>
 
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="index.js"></script>

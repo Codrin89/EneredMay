@@ -48,10 +48,30 @@ li .search {
   text-align: center;
 }
 .img-carousel {
-  max-width: 600px;
-  max-height: 600px;
+  max-width: 500px;
+  max-height: 500px;
   margin:0 auto;
 }
 #myCarousel {
   position: relative;
+  max-height: 500px;
+}
+.product div {
+  color: #fff;
+  text-align: center; 
+  background-color: #4F4664; 
+}
+.price {
+  font-weight: bold;
+  color: #C9F9FF;
+  font-size: 25px;
+}
+.in-stock {
+  color:#5DFDCB;
+  min-height: 28px;
+}
+.out-stock {
+  color:red;
+  font-weight: bold;
+  font-size: 20px;
 }
