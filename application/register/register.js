@@ -48,7 +48,6 @@
 	// xhr.open("POST", 'http://localhost/github_project/EneredMay/api/register', true);
 	// xhr.send(JSON.stringify(data));
 
-alert();
 
 $('#register').on('click', function() {
 	var data = {
@@ -86,6 +85,7 @@ $('#register').on('click', function() {
 
 	$.ajax({
 	  type: "POST",
+	  // github_project\EneredMay\EneredMay\api
 	  url: "http://localhost/github_project/EneredMay/api/register",
 	  data: JSON.stringify(data),
 	  success: function(response) {

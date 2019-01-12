@@ -38,14 +38,14 @@ $app->post('/login', function () use ($app, $dbh) {
     $json = $app->request->getBody();
     $result = json_decode($json, true);
     $query = "SELECT * FROM `users` WHERE `password`='".$result['password']."' AND (`username`='".$result['username']."' OR `email`='".$result['username']."')";
-    $result = mysqli_query($dbh, $query); 
-    $info = mysqli_fetch_assoc($result);
+    $resultDB1 = mysqli_query($dbh, $query); 
+    $info = mysqli_fetch_assoc($resultDB1);
     if($info != NULL) {
         $token = generateRandomString();
         $queryUpdate = "UPDATE `users` SET `loginToken`='".$token."' WHERE (`username`='".$result['username']."' OR `email`='".$result['username']."')";
-        $result = mysqli_query($dbh, $query);
+        $result = mysqli_query($dbh, $queryUpdate);
         if($result != NULL) {
-            echo "{token:".$token."}";
+            echo json_encode("token:".$token);
         } else {
             echo "Try again!";
         }
