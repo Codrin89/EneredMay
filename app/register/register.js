@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	var token = window.localStorage.getItem('loginToken');
 	if(token && token.length === 50) {
-		var path = window.location.href.split('Application')[0];
-		window.location.href = path + 'Application/Homepage/index.html';
+		var path = window.location.href.split('app')[0];
+		window.location.href = path + 'app/Homepage/index.html';
 		// window.location.href = 'Application/Homepage/index.html';
 	}
 });
@@ -62,7 +62,7 @@ $('#register').on('click', function() {
 
 	$.ajax({
 	  type: "POST",
-	  url: "http://localhost/Trello/EneredMay/api/register",
+	  url: "http://localhost/github/EneredMay/api/register",
 	  data: JSON.stringify(data),
 	  success: function(response) {
 	  	console.log(response);

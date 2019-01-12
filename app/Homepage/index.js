@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$.ajax({
 	  type: "GET",
-	  url: "http://localhost/Trello/EneredMay/api/products",
+	  url: "http://localhost/github/EneredMay/api/products",
 	  contentType: "application/json",
 	  success: function(response) {
 	  	const data = JSON.parse(response);

@@ -1,0 +1,3 @@
+-> localhost/phpmyadmin
+-> click "New" on the right sidebar
+-> enter name : enered_db , select Collation (Interclasare)
