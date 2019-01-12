@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	background-image: url('img/webuy.png');
+}
+
+.topnav {
+	background: black;
+	padding-left: 20px;
+	font-size: 16px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+button {
+	margin-bottom: 20px;
+	width: 100px;
+	height: 25px;
+	border: none;
+	border-radius: 5px;
+	color: #F0F8FF; 
+	cursor: pointer;
+}

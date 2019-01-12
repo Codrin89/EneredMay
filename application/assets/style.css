@@ -6,7 +6,12 @@
 }
 
 /*Utils*/
-
+.noPadding {
+	padding: 0;
+}
+body {
+	padding-top: 162px !important;
+}
 .displayNone {
 	display: none !important;
 }
@@ -17,7 +22,9 @@
 	background-image: url('img/3.jpg');
 	background-size: cover;
 }
-
+.carousel-control {
+	background: transparent !important;
+}
 .right-box {
 	background-image: url('img/2.png');
 	background-size: cover;
@@ -27,7 +34,20 @@
 .signinBackground {
 	background-image: url('img/4.png');
 }
-
+.carousel-inner {
+	border-radius: 0;
+}
+.carousel-inner>.item {
+	max-height: 550px;
+	overflow: hidden;
+}
 .box {
 	background-image: url('img/5.png');
+}
+.box-header {
+	height: 100px;
+	background: url('img/14.jpg');
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
 }

@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('assets/img/8.jpg');
+	background-size: cover;
+	font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+.title {
+	text-align: center;
+	padding: 50px 0 20px;
+}
+
+.title h1 {
+	margin: 0;
+	padding: 0;
+	color: #191b18;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+.container {
+	width: 50%;
+	height: 400px;
+	background: #fff;
+	margin: 0 auto;
+	box-shadow: 0 2px 4px rgba(222, 17, 17, 0.6);
+}
+
+.container .left {
+	float: left;
+	width: 50%;
+	height: 400px;
+	background: url('assets/img/11.png');
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+.container .right {
+	float: right;
+	width: 50%;
+	height: 400px;
+	box-sizing: border-box;
+}
+
+.formbox {
+	width: 100%;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	height: 400px;
+	background: #fff;
+}
+
+.formbox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #8B4513;
+}
+
+.formbox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.formbox input[type="text"],
+.formbox input[type="password"] {
+	border: none;
+	border-bottom: 2px solid #8B4513;
+	outline: none;
+	height: 40px;
+}
+
+.formbox input[type="text"]:focus,
+.formbox input[type="password"]:focus {
+	border-bottom: 2px solid #262626;
+}
+
+.formbox input[type="submit"] {
+	margin-bottom: 28px;
+	width: 265px;
+	height: 32px;
+	background: #f14c28;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+.formbox input[type="submit"]:hover {
+	background: #900C3F;
+}
+
+.formbox a {
+	color: #eb984e;
+	font-size: 14px;
+	font-weight: bold;
+}
