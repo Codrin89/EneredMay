@@ -1,5 +1,17 @@
 // GET DATA FOR ARTICLES
+var categories = [];
 $(document).ready(function() {
+	$.ajax({
+	  type: "GET",
+	  // http://localhost/github_project -> c://file/xampp/htdocs -> http://localhost
+	  // FOLDER_NAME                    
+	  // /EneredMay/api/facts -> folders from github
+	  url: "http://localhost/github_project/EneredMay/api/category",
+	  success: function(response) {
+	  	var data = JSON.parse(response);
+	  	categories = Object.values(data);
+	  }
+	});
 	$.ajax({
 	  type: "GET",
 	  // http://localhost/github_project -> c://file/xampp/htdocs -> http://localhost
@@ -32,10 +44,23 @@ $('#startPlay').on('click', function() {
 $('#goToLogin').on('click', function() {
 	window.location.href = window.location.href.split('application')[0] + 'application/register/register.html';
 });
+$('#openCategory').on('click', function() {
+	if($('.category-overflow-mobile').hasClass('displayNone')) {
+		$('.category-overflow-mobile').removeClass('displayNone');
+	} else {
+		$('.category-overflow-mobile').addClass('displayNone');
+	}
+});
 
 
-function renderFileData(data) {    
-	var div = $('<div class="curiosity"><div class="category"><h3 class="pull-left ">' + data.category + '</h3></div><div><img class=" img img-responsive" src="'+ data.image +'"></div><div class="text"><p class="curiosityText">'+ data.textArea +'</p></div><div class="icons"><div class="row col-xs-12"><div class="col-xs-3"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></div><div class="col-xs-3"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></div><div class="col-xs-3"><i class="fa fa-heart-o" aria-hidden="true"></i></div><div class="col-xs-3"><i class="fa fa-comments triggerComments" aria-hidden="true"></i></div></div></div><div class="comment-section displayNone"><textarea class="comment-textarea form-control">Write your comment here...</textarea><button class="btn btn-success">Submit comment</button></div></div>');
+function renderFileData(data) {
+	var getCategoryName = '';
+	for(var i = 0 ; i < categories.length ; i++) {
+		if(categories[i].id === data.categoryPointerID) {
+			getCategoryName = categories[i].value;
+		}
+	}    
+	var div = $('<div class="curiosity"><div class="category"><h3 class="pull-left ">' + getCategoryName + '</h3></div><div><img class=" img img-responsive" src="'+ data.image +'"></div><div class="text"><p class="curiosityText">'+ data.textArea +'</p></div><div class="icons"><div class="row col-xs-12"><div class="col-xs-3"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></div><div class="col-xs-3"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></div><div class="col-xs-3"><i class="fa fa-heart-o" aria-hidden="true"></i></div><div class="col-xs-3"><i class="fa fa-comments triggerComments" aria-hidden="true"></i></div></div></div><div class="comment-section displayNone"><textarea class="comment-textarea form-control">Write your comment here...</textarea><button class="submitButton">Submit comment</button></div></div>');
 	$('#article-container').append(div);
 }
 

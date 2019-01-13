@@ -116,6 +116,17 @@ $app->get('/facts', function () use ($app, $dbh) {
     echo json_encode($new_array);
 });
 
+$app->get('/category', function () use ($app, $dbh) {
+    $json = $app->request->getBody();
+    // validate user
+    $query = "SELECT * FROM `category` ORDER BY `id`";
+    $result = mysqli_query($dbh, $query);
+    while( $row = mysqli_fetch_assoc( $result)){
+        $new_array[$row['id']] = $row; // Inside while loop
+    }
+    echo json_encode($new_array);
+});
+
 $app->get('/questions', function () use ($app, $dbh) {
     $json = $app->request->getBody();
     // validate user
