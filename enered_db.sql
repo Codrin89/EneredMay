@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.3
+-- version 4.8.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 12, 2019 at 05:27 PM
--- Server version: 10.1.36-MariaDB
--- PHP Version: 5.6.38
+-- Generation Time: Jan 18, 2019 at 09:14 AM
+-- Server version: 10.1.37-MariaDB
+-- PHP Version: 5.6.39
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -85,9 +85,12 @@ CREATE TABLE `facts` (
 --
 
 INSERT INTO `facts` (`id`, `title`, `image`, `textArea`, `categoryPointerID`) VALUES
-(1, 'This is a title', 'https://images.pexels.com/photos/371633/pexels-photo-371633.jpeg?cs=srgb&dl=clouds-country-daylight-371633.jpg&fm=jpg', 'This is the description of the article', 1),
-(3, 'This is a title3', 'https://cdn.pixabay.com/photo/2015/03/22/18/18/question-685060_960_720.jpg', 'This is the description of the article3', 3),
-(4, 'Title', 'https://ichef.bbci.co.uk/news/660/cpsprodpb/E9DF/production/_96317895_gettyimages-164067218.jpg', 'Monkeys are the desecdents of humans.', 4);
+(1, 'This is a title', 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Oolong_the_Rabbit%27s_last_performance_%282003%29.jpg', 'Rabbits cannot vomit', 1),
+(2, 'This is a title3', 'https://c1.staticflickr.com/2/1734/28919993428_88bfb9fd79_b.jpg', 'The average person makes about 1,140 telephone each year', 2),
+(3, 'Title', 'https://images.pexels.com/photos/321552/pexels-photo-321552.jpeg?cs=srgb&dl=animal-ape-banana-321552.jpg&fm=jpg', 'Monkeys are the desecdents of humans', 3),
+(4, 'title', 'https://sfatulparintilor.ro/wp-content/uploads/2015/08/somn-copii-sfatulparintilor.ro-pixabay_com-baby-1151348_1920.jpg', 'In a year, an average person sleeps for 122 days out of 365 days', 4),
+(5, 'asdsadas', 'https://c1.staticflickr.com/7/6040/6258904896_ec4a6f155a_b.jpg', 'On average, it takes a person 7 minutes to fall asleep', 5),
+(6, 'sdasd', 'https://www.nps.gov/common/uploads/grid_builder/akr/crop16_9/10CB0B03-1DD8-B71B-0BF5D6900DBFC450.jpg?width=950&quality=90&mode=crop', 'If you gave each human on earth an equal portion of dry land, including the uninhabitable areas, everyone would get roughly 100 square feet(30.4 m)', 6);
 
 -- --------------------------------------------------------
 
@@ -212,7 +215,7 @@ ALTER TABLE `comments`
 -- AUTO_INCREMENT for table `facts`
 --
 ALTER TABLE `facts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `questions`

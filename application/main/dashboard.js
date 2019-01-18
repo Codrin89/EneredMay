@@ -38,6 +38,8 @@ $('.triggerExpand').on('click', function() {
 });
 
 
+
+
 $('#startPlay').on('click', function() {
 	window.location.href = window.location.href.split('application')[0] + 'application/gameMode/gameMode.html';
 });
