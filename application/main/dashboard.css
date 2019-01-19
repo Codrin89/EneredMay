@@ -47,12 +47,16 @@ body{
 .navBarColor{
 	background-color: #242b3f;
 	height: 40px;
+	position: fixed;
+	top: 0px;
 	
 }
 
 .navbar{
 	border-radius: 0px;
 	position: relative;
+	position: fixed;
+	top: 0px;
 
 }
 
@@ -235,7 +239,7 @@ body{
 .sidebar {
     position:fixed;
     top: 93px;
-    left:20px; 
+    left:25px; 
 }
 
 .category-item{
@@ -246,17 +250,12 @@ body{
 .item{
 	padding-top: 7px;
 	padding-bottom: 7px;
-	padding-left: 15px;
 	cursor:pointer;
 	width: 120px;
+	position: relative;
+
 
 }
-
-.item:hover{
-	background-color: black;
-	color: white;
-}
-
 
 .bigBox{
 	height: 150px;
@@ -267,6 +266,81 @@ body{
 	background-image: url("https://onehdwallpaper.com/wp-content/uploads/2015/07/Free-Download-Beautiful-Animals-Pictures.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.square{
+	width: 30px;
+	height: 30px;
+
+}
+
+
+.img11{
+	border: none;
+	outline: none;
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/01a6oga3DbL.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img22{
+	border: none;
+	outline: none;
+	background-image: url("https://previews.123rf.com/images/suljo/suljo1001/suljo100100016/6238548-ilustraci%C3%B3n-de-fondo-transparente-de-matem%C3%A1ticas-y-geometr%C3%ADa.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 30px;
+}
+
+.img33{
+	border: none;
+	outline: none;
+	background-image: url("https://www.payh.org/wp-content/uploads/2016/01/SFTD-01-07-2016-Feature.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -6px;
+}
+
+.img44{
+	border: none;
+	outline: none;
+	background-image: url("http://2.bp.blogspot.com/_5UDR8VzREF4/SXf3wRDjofI/AAAAAAAAAhA/YoTqHQTtq_s/s320/hp.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img55{
+	border: none;
+	outline: none;
+	background-image: url("https://www.ambientum.com/wp-content/uploads/2018/12/universo-galaxia.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -8px;
+}
+
+.img66{
+	border: none;
+	outline: none;
+	background-image: url("https://cdn.pixabay.com/photo/2017/06/23/16/57/tree-2435269_640.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img77{
+	border: none;
+	outline: none;
+	background-image: url("https://image.freepik.com/free-photo/science_1048-4662.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.goTop{
+	display: inline-block;
+    position: absolute;
+    bottom: 18px;
+    padding-left: 5px;
 }
 
 
